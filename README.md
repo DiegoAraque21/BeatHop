@@ -138,14 +138,6 @@ Each level will have a different background, that will be somehow related to the
 
 ### _Game Flow_
 
-1. Player starts in forest
-2. Pond to the left, must move right
-3. To the right is a hill, player jumps to traverse it (&quot;jump&quot; taught)
-4. Player encounters castle - door&#39;s shut and locked
-5. There&#39;s a window within jump height, and a rock on the ground
-6. Player picks up rock and throws at glass (&quot;throw&quot; taught)
-7. … etc.
-
 Three levels will be developed. Once a level is completed, another level and character are unlocked, and once all three levels
 /characters are unlocked, the user will be able to choose wich level or characters he wants fron the main wondow. The user will also be able to wither return to the main window when he loses a game or play again.
 
