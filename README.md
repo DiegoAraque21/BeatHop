@@ -91,7 +91,7 @@ The player has 5 lives and loses 1 each time he touches an obstacle, when he los
 
 ### Score
 
-Depending on lives lost the percentage of the level when passed will be diffrent. For example passing a level with 4 lives will give 80%.
+Depending on how many lives the player has after completing the level, the percentage will variate. For example passing a level with 4 lives will give 80%.
 
 ### Story & Characters
 
@@ -99,7 +99,7 @@ There are 3 different characters (one for each level), their objective is to rea
 
 ### Background
 
-Each level will have a different background, that will be somehow related to the genre of the music benn played in the respective level. Such as having a more classic backgrounf for classical music, or a disco for party music, etc. That will give a sense of belonging to the song in its ambience
+Each level will have a different background, that will be somehow related to the genre of the music being played in the respective level. Such as having a more classic background for classical music, or a disco for party music, etc. That will give a sense of belonging to the song in its respective ambience.
 
 ## Level Design
 
@@ -143,9 +143,9 @@ Three levels will be developed. Once a level is completed, another level and cha
 
 Game flow:
 
-1 The player starts moving while some music is playing\
-2 As the background changes, the player will encounter multiple objects which will have a musical note for indicating what. If the player touches an obstacle, if he has 2 or more lives he will loose a live, on the other hand, if the has 1 live he will loose and will have to restart the level\.\
-3 If the player reaches the end with one or more lives, he wins and unlockes a character and level,if he hasn't unlocked all of them already.
+1. The player starts moving while some music is playing
+2. As the background changes, the player will encounter multiple objects which will have a musical note for indicating what. If the player touches an obstacle, if he has 2 or more lives he will loose a live, on the other hand, if the has 1 live he will loose and will have to restart the level.
+3. If the player reaches the end with one or more lives, he wins and unlockes a character and level,if he hasn't unlocked all of them already.
 
 (example)
 
