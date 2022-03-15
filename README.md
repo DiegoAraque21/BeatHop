@@ -157,22 +157,29 @@ Game flow:
 
 1. BasePhysics
    - Characters
-     <br>
      - Basic Jim
+       <br>
        <img src="Images/basicJim.png" height="120" width="100" alt = "Basic Jim">
+       </br>
      - Disco Joe
+       <br>
        <img src="Images/discoJoe.png" height="120" width="100" alt = "Basic Jim">
+       </br>
      - Punk Bill
+       <br>
        <img src="Images/punkBill.png" height="120" width="100" alt = "Basic Jim">
        </br>
 2. BaseObstacle
    <br>
    <img src="Images/obstacle1.png" height="120" alt = "Basic Jim">
    </br>
-3. In-game interface
-   <br>
-   <img src="Images/gameExample.png" height="250" width="500" alt = "Basic Jim">
-   </br>
+3. In-game Screens
+   1. Playable interface
+      <br>
+      <img src="Images/gameExample.png" height="250" width="500" alt = "Basic Jim">
+      </br>
+   2. Menu
+   3. Pause Menu
 
 (example)
 
