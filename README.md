@@ -259,7 +259,7 @@ Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), a
 
 Each level will have a specific song depending on the difficulty of the level, but all songs will have a clear and notable drum or percussion instrument base, and the tempo obstacles will come in sync to that percussion base.
 
-The songs in the levels will be popular songs for players to recognize and better understand the representation of the tempo notes in the actual song.
+The songs in the levels will be popular songs for players to recognize and better understand the representation of the tempo notes in the song.
 
 ### _Sounds Needed_
 
@@ -276,7 +276,7 @@ The songs in the levels will be popular songs for players to recognize and bette
 ### _Music Needed_
 
 1. Level 1 Song: Slow and chill song based on drums or percussion instrument, with black and white note tempos. Maybe a reggae or jazz song.
-2. Level 2 Song: Medium speed song with a percusion base of white, black and quarter notes. Maybe a classic rock song.
+2. Level 2 Song: Medium speed song with a percussion base of white, black and quarter notes. Maybe a classic rock song.
 3. Level 3 Song: Fast and exciting song with all the music tempos and with a combination of them. Maybe a fast rock or metal song.
 
 ## Schedule
