@@ -51,7 +51,7 @@ Runner Game that teaches basic percussion concepts such as the tempo of each mus
 
 ### _Gameplay_
 
-The player will have to overcome a series of obstacles by jumping (with the spacebar) to the rhythm of the song played in the background, notes will be displayed on the screen to help the user identify when the perfect time for each jump will be, thus learning the duration value for each note.
+The player will have to overcome a series of obstacles by jumping (with the spacebar) to the rhythm of the song played in the background, notes will be displayed on the screen to help the user identify when the perfect time for each jump will be, and learn the duration value for each note.
 
 ### _Mindset_
 
@@ -64,7 +64,7 @@ We want to provoque a calm and enjoyable gaming environment by playing relaxing 
 ### _Screens_
 
 1. Title Screen
-   1. Play (button)
+   1. Start Game (button)
 2. Level Select
    1. HighScore
 3. Game
@@ -73,6 +73,7 @@ We want to provoque a calm and enjoyable gaming environment by playing relaxing 
       1. Resume
       2. Restart
       3. Return to Menu
+   3. Next Level
 4. End Credits
 
 ### _Controls_
@@ -105,8 +106,6 @@ Each level will have a different background, that will be somehow related to the
 
 ---
 
-(Note : These sections can safely be skipped if they&#39;re not relevant, or you&#39;d rather go about it another way. For most games, at least one of them should be useful. But I&#39;ll understand if you don&#39;t want to use them. It&#39;ll only hurt my feelings a little bit.)
-
 ### _Background Design_
 
 1. Forest
@@ -134,20 +133,15 @@ Each level will have a different background, that will be somehow related to the
          2. Giant rats
          3. Chests
 
-(example)
-
 ### _Game Flow_
 
-Three levels will be developed. Once a level is completed, another level and character are unlocked, and once all three levels
-/characters are unlocked, the user will be able to choose wich level or characters he wants fron the main wondow. The user will also be able to wither return to the main window when he loses a game or play again.
+Three levels will be developed. Once a level is completed, another level and character are unlocked, and once all three levels and characters are unlocked, the user will be able to choose wich level or characters he wants fron the main screen. The user will also be able to wither return to the main screen when he loses a game or play again.
 
-Game flow:
+##### Flow:
 
-1. The player starts moving while some music is playing
-2. As the background changes, the player will encounter multiple objects which will have a musical note for indicating what. If the player touches an obstacle, if he has 2 or more lives he will loose a live, on the other hand, if the has 1 live he will loose and will have to restart the level.
-3. If the player reaches the end with one or more lives, he wins and unlockes a character and level,if he hasn't unlocked all of them already.
-
-(example)
+1. The player starts moving while some music is playing.
+2. As the background changes, the player will encounter multiple objects with a musical tempo note inside that the player will need to jump acording the tempo. If the player touches an obstacle he will loose a life, on the other hand, if he only has 1 life he will have to restart the level.
+3. If the player reaches the end with one or more lives, he wins and unlockes the next character and level, if he hasn't unlocked all of them already.
 
 ## Development
 
