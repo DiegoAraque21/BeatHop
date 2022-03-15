@@ -91,7 +91,7 @@ The player has 5 lives and loses 1 each time he touches an obstacle, when he los
 
 ##### Score
 
-Depending on lives lost the percentage of the level when passed will be diffrent. For example passing a level with 4 lives will give 80%.
+Depending on how many lives the player has after completing the level, the percentage will variate. For example passing a level with 4 lives will give 80%.
 
 ##### Story & Characters
 
@@ -99,7 +99,7 @@ There are 3 different characters (one for each level), their objective is to rea
 
 ##### Background
 
-Each level will have a different background, that will be somehow related to the genre of the music benn played in the respective level. Such as having a more classic backgrounf for classical music, or a disco for party music, etc. That will give a sense of belonging to the song in its ambience
+Each level will have a different background, that will be somehow related to the genre of the music being played in the respective level. Such as having a more classic background for classical music, or a disco for party music, etc. That will give a sense of belonging to the song in its respective ambience.
 
 ## Level Design
 
@@ -138,22 +138,14 @@ Each level will have a different background, that will be somehow related to the
 
 ### _Game Flow_
 
-1. Player starts in forest
-2. Pond to the left, must move right
-3. To the right is a hill, player jumps to traverse it (&quot;jump&quot; taught)
-4. Player encounters castle - door&#39;s shut and locked
-5. There&#39;s a window within jump height, and a rock on the ground
-6. Player picks up rock and throws at glass (&quot;throw&quot; taught)
-7. … etc.
-
 Three levels will be developed. Once a level is completed, another level and character are unlocked, and once all three levels
 /characters are unlocked, the user will be able to choose wich level or characters he wants fron the main wondow. The user will also be able to wither return to the main window when he loses a game or play again.
 
 Game flow:
 
-1 The player starts moving while some music is playing\
-2 As the background changes, the player will encounter multiple objects which will have a musical note for indicating what. If the player touches an obstacle, if he has 2 or more lives he will loose a live, on the other hand, if the has 1 live he will loose and will have to restart the level\.\
-3 If the player reaches the end with one or more lives, he wins and unlockes a character and level,if he hasn't unlocked all of them already.
+1. The player starts moving while some music is playing
+2. As the background changes, the player will encounter multiple objects which will have a musical note for indicating what. If the player touches an obstacle, if he has 2 or more lives he will loose a live, on the other hand, if the has 1 live he will loose and will have to restart the level.
+3. If the player reaches the end with one or more lives, he wins and unlockes a character and level,if he hasn't unlocked all of them already.
 
 (example)
 
@@ -164,11 +156,30 @@ Game flow:
 ### _Abstract Classes / Components_
 
 1. BasePhysics
-   1. BasePlayer
-   2. BaseEnemy
-   3. BaseObject
+   - Characters
+     - Basic Jim
+       <br>
+       <img src="Images/basicJim.png" height="120" width="100" alt = "Basic Jim">
+       </br>
+     - Disco Joe
+       <br>
+       <img src="Images/discoJoe.png" height="120" width="100" alt = "Basic Jim">
+       </br>
+     - Punk Bill
+       <br>
+       <img src="Images/punkBill.png" height="120" width="100" alt = "Basic Jim">
+       </br>
 2. BaseObstacle
-3. BaseInteractable
+   <br>
+   <img src="Images/obstacle1.png" height="120" alt = "Basic Jim">
+   </br>
+3. In-game Screens
+   1. Playable interface
+      <br>
+      <img src="Images/gameExample.png" height="250" width="500" alt = "Basic Jim">
+      </br>
+   2. Menu
+   3. Pause Menu
 
 (example)
 
