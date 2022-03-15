@@ -158,10 +158,13 @@ Game flow:
 1. BasePhysics
    - Characters
      <br>
-     <img src="Images/basicJim.png" height="120" width="100" alt = "Basic Jim">
-     <img src="Images/discoJoe.png" height="120" width="100" alt = "Basic Jim">
-     <img src="Images/punkBill.png" height="120" width="100" alt = "Basic Jim">
-     </br>
+     - Basic Jim
+       <img src="Images/basicJim.png" height="120" width="100" alt = "Basic Jim">
+     - Disco Joe
+       <img src="Images/discoJoe.png" height="120" width="100" alt = "Basic Jim">
+     - Punk Bill
+       <img src="Images/punkBill.png" height="120" width="100" alt = "Basic Jim">
+       </br>
 2. BaseObstacle
    <br>
    <img src="Images/obstacle1.png" height="120" alt = "Basic Jim">
