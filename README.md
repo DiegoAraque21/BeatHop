@@ -157,6 +157,7 @@ Three levels will be developed. Once a level is completed, another level and cha
 
 1. BasePhysics
    - Characters
+   - Lives
 2. BaseObstacle
    - Geometric Figures
 3. BaseInteractable
