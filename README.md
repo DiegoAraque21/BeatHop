@@ -163,7 +163,9 @@ Game flow:
      <img src="Images/punkBill.png" height="120" width="100" alt = "Basic Jim">
      </br>
 2. BaseObstacle
-
+   <br>
+   <img src="Images/obstacle1.png" height="120" alt = "Basic Jim">
+   </br>
 3. In-game interface
    <br>
    <img src="Images/gameExample.png" height="250" width="500" alt = "Basic Jim">
