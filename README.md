@@ -157,9 +157,11 @@ Game flow:
 
 1. BasePhysics
    1. Characters
-      - Basic Jim ![Basic Jim](Images/basicJim.png)
-      - Disco Joe ![Disco Joe](Images/discoJoe.png)
-      - Punk Bill ![Punk Bill](Images/punkBill.png)
+      <br>
+      <img src="Images/basicJim.png" height="120" width="100" alt = "Basic Jim">
+      <img src="Images/discoJoe.png" height="120" width="100" alt = "Basic Jim">
+      <img src="Images/punkBill.png" height="120" width="100" alt = "Basic Jim">
+      </br>
    2. BaseEnemy
    3. BaseObject
 2. BaseObstacle
