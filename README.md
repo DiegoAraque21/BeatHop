@@ -22,12 +22,7 @@
    2. [Controls](#controls)
    3. [Mechanics](#mechanics)
 4. [Level Design](#level-design)
-   1. [Themes](#themes)
-      1. Ambience
-      2. Objects
-         1. Ambient
-         2. Interactive
-      3. Challenges
+   1. [Background Design](#background-design)
    2. [Game Flow](#game-flow)
 5. [Development](#development)
    1. [Abstract Classes](#abstract-classes--components)
