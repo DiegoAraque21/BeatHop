@@ -111,6 +111,7 @@ Each level will have a different background, that will be somehow related to the
    3. Character
       Basic Joe
    4. Background
+      <br>
       <img src="./Images/backgrounds/sunsetBg.jpg" width="400">
       <br>
 2. Future
@@ -122,6 +123,7 @@ Each level will have a different background, that will be somehow related to the
    3. Character
       Punk Bill
    4. Background
+      <br>
       <img src="./Images/backgrounds/futureBg.png" width="400">
       <br>
 
@@ -133,6 +135,7 @@ Each level will have a different background, that will be somehow related to the
    3. Character
       Disco Joe
    4. Background
+      <br>
       <img src="./Images/backgrounds/marsBg.png" width="400">
       <br>
 
