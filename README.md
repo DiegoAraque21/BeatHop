@@ -243,34 +243,36 @@ The songs in the levels will be popular songs for players to recognize and bette
 
 ---
 
-(define the main activities and the expected dates when they should be finished. This is only a reference, and can change as the project is developed)
+1. Learning what is necessary for the project. 
 
-1. develop base classes
-   1. base entity
-      1. base player
-      2. base enemy
-      3. base block
-2. base app state
-   1. game world
-   2. menu world
-3. develop player and basic block classes
-   1. physics / collisions
-4. find some smooth controls/physics
-5. develop other derived classes
-   1. blocks
-      1. moving
-      2. falling
-      3. breaking
-      4. cloud
-   2. enemies
-      1. soldier
-      2. rat
-      3. etc.
-6. design levels
-   1. introduce motion/jumping
-   2. introduce throwing
-   3. mind the pacing, let the player play between lessons
-7. design sounds
-8. design music
+   1.1 Learn agile methodologies - March 18 \
+   1.2 Learn database fundamentals - April 1 \
+   1.3 Learn videogame development  fundamentals                    - March 4 
 
-(example)
+2. Initial Game design and requirements \
+   2.1 Meetings with percussive arts society - February 22 \
+   2.2 Define the project requirements    - February 25 \
+   2.3 Definition of the game to be created - March 4 
+3. Asset sourcing \
+   3.1 Set up the enviroment - March 4 \
+   3.2 Get necessary backgrounds and sprites (graphics) - April 1 \
+   3.3 Get the necessary music and sounds -April 1 
+
+4. Development of the game \
+   4.1 Develop the game mechanics  - April 8 \
+   4.2 Develop the first level - April 15 \
+   4.3 Develop the second level -April 15 \
+   4.4 Develop the third level - April 22 \
+   4.5 Develop the game menu   - April 22 
+
+
+5. Creation of the database - April 15 
+   
+6. Development of the website - April 15 
+
+7. Development of the final product - April 27 
+
+8. Product delivery and presentation - April 29 
+
+
+
