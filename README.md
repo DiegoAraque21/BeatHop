@@ -81,23 +81,23 @@ During the game, the player will be able to jump with the keyboard's spacebar (h
 
 ### _Mechanics_
 
-### Movement
+##### Movement
 
 The character can only jump by using the spacebar. If he is not on a rough surface, he will not be able to jump.
 
-### Lives
+##### Lives
 
 The player has 5 lives and loses 1 each time he touches an obstacle, when he loses all his lives the game is over.
 
-### Score
+##### Score
 
 Depending on lives lost the percentage of the level when passed will be diffrent. For example passing a level with 4 lives will give 80%.
 
-### Story & Characters
+##### Story & Characters
 
 There are 3 different characters (one for each level), their objective is to reach the finish line using their knowledge in music and percussion.
 
-### Background
+##### Background
 
 Each level will have a different background, that will be somehow related to the genre of the music benn played in the respective level. Such as having a more classic backgrounf for classical music, or a disco for party music, etc. That will give a sense of belonging to the song in its ambience
 
