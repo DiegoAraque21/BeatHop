@@ -108,30 +108,38 @@ Each level will have a different background, that will be somehow related to the
 
 ### _Background Design_
 
-1. Forest
+1. The City
    1. Mood
-      1. Dark, calm, foreboding
-2. Objects
-   1. Ambient
-      1. Fireflies
-      2. Beams of moonlight
-      3. Tall grass
-   2. Interactive
-      1. Wolves
-      2. Goblins
-      3. Rocks
-3. Castle
+      Chill, easy, calm
+   2. Music
+      Slow music to teach game rules and the basics of music tempo
+   3. Character
+      Basic Joe
+   4. Background
+      <img src="./Images/backgrounds/sunsetBg.jpg" width="400">
+      <br>
+2. Future
+
    1. Mood
-      1. Dangerous, tense, active
-   2. Objects
-      1. Ambient
-         1. Rodents
-         2. Torches
-         3. Suits of armor
-      2. Interactive
-         1. Guards
-         2. Giant rats
-         3. Chests
+      Challenging, exciting
+   2. Music
+      The music is going to be faster, more tempo obstacles will come.
+   3. Character
+      Punk Bill
+   4. Background
+      <img src="./Images/backgrounds/futureBg.png" width="400">
+      <br>
+
+3. Mars
+   1. Mood
+      Challenging, exciting, hard
+   2. Music
+      This last level will have the fastest music with a lot of tempo obstacles.
+   3. Character
+      Disco Joe
+   4. Background
+      <img src="./Images/backgrounds/marsBg.png" width="400">
+      <br>
 
 ### _Game Flow_
 
@@ -153,29 +161,27 @@ Three levels will be developed. Once a level is completed, another level and cha
    - Characters
      - Basic Jim
        <br>
-       <img src="Images/basicJim.png" height="120" width="100" alt = "Basic Jim">
+       <img src="Images/characters/basicJim.png" height="120" alt="Basic Jim">
        </br>
      - Disco Joe
        <br>
-       <img src="Images/discoJoe.png" height="120" width="100" alt = "Basic Jim">
+       <img src="Images/characters/discoJoe.png" height="120" alt="Disco Joe">
        </br>
      - Punk Bill
        <br>
-       <img src="Images/punkBill.png" height="120" width="100" alt = "Basic Jim">
+       <img src="Images/characters/punkBill.png" height="120" alt="Punk Bill">
        </br>
 2. BaseObstacle
    <br>
-   <img src="Images/obstacle1.png" height="120" alt = "Basic Jim">
+   <img src="Images/assets/obstacle1.png" height="120" alt="Obstacle">
    </br>
 3. In-game Screens
    1. Playable interface
       <br>
-      <img src="Images/gameExample.png" height="250" width="500" alt = "Basic Jim">
+      <img src="Images/assets/gameExample.png" height="250" alt="Screen Example">
       </br>
    2. Menu
    3. Pause Menu
-
-(example)
 
 ### _Derived Classes / Component Compositions_
 
