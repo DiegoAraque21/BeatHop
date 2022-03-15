@@ -157,29 +157,13 @@ Three levels will be developed. Once a level is completed, another level and cha
 
 1. BasePhysics
    - Characters
-     - Basic Jim
-       <br>
-       <img src="Images/characters/basicJim.png" height="120" alt="Basic Jim">
-       </br>
-     - Disco Joe
-       <br>
-       <img src="Images/characters/discoJoe.png" height="120" alt="Disco Joe">
-       </br>
-     - Punk Bill
-       <br>
-       <img src="Images/characters/punkBill.png" height="120" alt="Punk Bill">
-       </br>
 2. BaseObstacle
-   <br>
-   <img src="Images/assets/obstacle1.png" height="120" alt="Obstacle">
-   </br>
-3. In-game Screens
-   1. Playable interface
-      <br>
-      <img src="Images/assets/gameExample.png" height="250" alt="Screen Example">
-      </br>
-   2. Menu
-   3. Pause Menu
+   - Geometric Figures
+3. BaseInteractable
+   - Pause Button
+   - Play Button
+   - Go back to main menu
+   - Select level
 
 ### _Derived Classes / Component Compositions_
 
