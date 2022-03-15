@@ -156,7 +156,13 @@ Game flow:
 ### _Abstract Classes / Components_
 
 1. BasePhysics
-   1. BasePlayer
+   1. Characters
+      - Basic Jim
+        ![Basic Jim](Images/basicJim.png)
+      - Disco Joe
+        ![Disco Joe](Images/discoJoe.png)
+      - Punk Bill
+        ![Punk Bill](Images/punkBill.png)
    2. BaseEnemy
    3. BaseObject
 2. BaseObstacle
