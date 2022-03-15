@@ -156,16 +156,18 @@ Game flow:
 ### _Abstract Classes / Components_
 
 1. BasePhysics
-   1. Characters
-      <br>
-      <img src="Images/basicJim.png" height="120" width="100" alt = "Basic Jim">
-      <img src="Images/discoJoe.png" height="120" width="100" alt = "Basic Jim">
-      <img src="Images/punkBill.png" height="120" width="100" alt = "Basic Jim">
-      </br>
-   2. BaseEnemy
-   3. BaseObject
+   - Characters
+     <br>
+     <img src="Images/basicJim.png" height="120" width="100" alt = "Basic Jim">
+     <img src="Images/discoJoe.png" height="120" width="100" alt = "Basic Jim">
+     <img src="Images/punkBill.png" height="120" width="100" alt = "Basic Jim">
+     </br>
 2. BaseObstacle
-3. BaseInteractable
+
+3. In-game interface
+   <br>
+   <img src="Images/gameExample.png" height="250" width="500" alt = "Basic Jim">
+   </br>
 
 (example)
 
