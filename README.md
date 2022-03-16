@@ -187,12 +187,16 @@ The main colors that we will be using are purple, yellow, orange, red, blue and 
 
 "Future"
 <img src="./Images/assets/pallete2.png" width="250">
+<br>
 "Mars"
 <img src="./Images/assets/pallete3.png" width="250">
+<br>
 "The City"
 <img src="./Images/assets/pallete4.png" width="250">
+<br>
 General Colors
 <img src="./Images/assets/pallete.png" width="400">
+<br>
 >
 
 Our graphics style is very pixely, the characters, backgrounds and assets are all retro/pixelated with thin outlines and very little emphasis on shadows, also our characters have very sharp angles to accentuate the retro appearance.
