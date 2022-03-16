@@ -225,6 +225,7 @@ We will have visual feedback in the form of colors, every time the character get
    6. Half rest (2 beat silence)
    7. Quarter rest (1 beat silence)
    8. Eighth rest (1/2 beat silence)
+   9. Spike
 3. Ambient
    1. Buildings
    2. Bridges
