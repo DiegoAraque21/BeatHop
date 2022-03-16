@@ -1,4 +1,4 @@
-<img src = "./Images/logos/logoTEC.svg">
+<img src = "./Images/logos/logoTEC.svg" width = "100">
 
 # BEAT HOP
 
