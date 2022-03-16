@@ -226,6 +226,7 @@ We will have visual feedback in the form of colors, every time the character get
    9. Spike
       <br>
       <b>Block Example</b>
+      <br>
       <img src="./Images/assets/obstacle1.png" width = "100">
       <br>
 3. Ambient
