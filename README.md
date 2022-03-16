@@ -1,3 +1,5 @@
+<img src = "./Images/logos/logoTEC.svg">
+
 # BEAT HOP
 
 ## Game Design Document
@@ -98,15 +100,13 @@ There are 3 different characters (one for each level), their objective is to rea
 <img src="./Images/characters/discoStew.png" width="80">
 <img src="./Images/characters/punkBill.png" width="100">
 
-
-
 ##### Background
 
 Each level will have a different background, that will be somehow related to the genre of the music being played in the respective level. Such as having a more classic background for classical music, or a disco for party music, etc. That will give a sense of belonging to the song in its respective ambience.
 
 ## Level Design
 
---- 
+---
 
 ### _Background Design_
 
@@ -182,9 +182,7 @@ Three levels will be developed. Once a level is completed, another level and cha
 
 The main colors that we will be using are purple, yellow, orange, red, blue and black. Our pallete is limited but broad. The purpose of these colors is to asociate the game with relaxing and chill vibes.
 
-
 <p align="center"
-
 
 "Future"
 <br>
@@ -202,12 +200,12 @@ General Colors
 <br>
 <img src="./Images/assets/pallete.png" width="400">
 <br>
+
 >
 
 Our graphics style is very pixely, the characters, backgrounds and assets are all retro/pixelated with thin outlines and very little emphasis on shadows, also our characters have very sharp angles to accentuate the retro appearance.
 
 We will have visual feedback in the form of colors, every time the character gets hurt the game will display a red color over him. When a level is completed the game will display flashing colors asimilating fireworks to represent success and goal achievement.
-
 
 ### _Graphics Needed_
 
@@ -237,7 +235,6 @@ We will have visual feedback in the form of colors, every time the character get
    1. Ceiling
    2. Floor
    3. Goal Flag
-
 
 ## Sounds/Music
 
