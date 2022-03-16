@@ -95,7 +95,7 @@ There are 3 different characters (one for each level), their objective is to rea
 
 <p align="center">
 <img src="./Images/characters/basicJim.png" width="100">
-<img src="./Images/characters/discoStu.png" width="80">
+<img src="./Images/characters/discoStew.png" width="80">
 <img src="./Images/characters/punkBill.png" width="100">
 
 
