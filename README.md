@@ -206,8 +206,6 @@ General Colors
 
 Our graphics style is very pixely, the characters, backgrounds and assets are all retro/pixelated with thin outlines and very little emphasis on shadows, also our characters have very sharp angles to accentuate the retro appearance.
 
-What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, specifically? Solid, thick outlines with flat hues? Non-black outlines with limited tints/shades? Emphasize smooth curvatures over sharp angles? Describe a set of general rules depicting your style here.
-
 We will have visual feedback in the form of colors, every time the character gets hurt the game will display a red color over him. When a level is completed the game will display flashing colors asimilating fireworks to represent success and goal achievement.
 
 
