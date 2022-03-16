@@ -218,15 +218,17 @@ We will have visual feedback in the form of colors, every time the character get
    1. Whole note (4 beats)
    2. Half note (2 beats)
    3. Quarter note (1 beat)
-      <br>
-      <img src="./Images/assets/obstacle1.png" width = "100">
-      <br>
    4. Eighth note (1/2 beat)
    5. Whole rest (4 beat silence)
    6. Half rest (2 beat silence)
    7. Quarter rest (1 beat silence)
    8. Eighth rest (1/2 beat silence)
    9. Spike
+   <br>
+   <p><b>Block Example</b></p>
+   <br>
+   <img src="./Images/assets/obstacle1.png" width = "100">
+   <br>
 3. Ambient
    1. Buildings
    2. Bridges
