@@ -155,7 +155,7 @@ Three levels will be developed. Once a level is completed, another level and cha
 ##### Flow:
 
 1. The player starts moving while some music is playing.
-2. As the background changes, the player will encounter multiple objects with a musical tempo note inside that the player will need to jump acording the tempo. If the player touches an obstacle he will loose a life, on the other hand, if he only has 1 life he will have to restart the level.
+2. As the background changes, the player will encounter multiple objects with a musical tempo note inside that the player will need to jump. The type of the jump will depend on the note.  If the player touches an obstacle he will loose a life, on the other hand, if he only has 1 life he will have to restart the level.
 3. If the player reaches the end with one or more lives, he wins and unlockes the next character and level, if he hasn't unlocked all of them already.
 
 ## Development
