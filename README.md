@@ -99,7 +99,7 @@ Each level will have a different background, that will be somehow related to the
 
 ## Level Design
 
----
+--- 
 
 ### _Background Design_
 
