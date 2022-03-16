@@ -215,6 +215,10 @@ We will have visual feedback in the form of colors, every time the character get
       2. Disco Stew (idle, jumping)
       3. Punk Bill (idle, jumping)
 2. Blocks
+   <b>Quarter Note block example<b>
+   <br>
+   <img src="./Images/assets/obstacle1.png">
+   <br>
    1. Whole note (4 beats)
    2. Half note (2 beats)
    3. Quarter note (1 beat)
