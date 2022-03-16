@@ -93,6 +93,13 @@ Depending on how many lives the player has after completing the level, the perce
 
 There are 3 different characters (one for each level), their objective is to reach the finish line using their knowledge in music and percussion.
 
+<p align="center">
+<img src="./Images/characters/basicJim.png" width="100">
+<img src="./Images/characters/discoStu.png" width="80">
+<img src="./Images/characters/punkBill.png" width="100">
+
+
+
 ##### Background
 
 Each level will have a different background, that will be somehow related to the genre of the music being played in the respective level. Such as having a more classic background for classical music, or a disco for party music, etc. That will give a sense of belonging to the song in its respective ambience.
@@ -173,44 +180,56 @@ Three levels will be developed. Once a level is completed, another level and cha
 
 ### _Style Attributes_
 
-What kinds of colors will you be using? Do you have a limited palette to work with? A post-processed HSV map/image? Consistency is key for immersion.
+The main colors that we will be using are purple, yellow, orange, red, blue and black. Our pallete is limited but broad. The purpose of these colors is to asociate the game with relaxing and chill vibes.
+
+
+<p align="center"
+
+"Future"
+<img src="./Images/assets/pallete2.png" width="250">
+"Mars"
+<img src="./Images/assets/pallete3.png" width="250">
+"The City"
+<img src="./Images/assets/pallete4.png" width="250">
+General Colors
+<img src="./Images/assets/pallete.png" width="400">
+>
+
+Our graphics style is very pixely, the characters, backgrounds and assets are all retro/pixelated with thin outlines and very little emphasis on shadows, also our characters have very sharp angles to accentuate the retro appearance.
 
 What kind of graphic style are you going for? Cartoony? Pixel-y? Cute? How, specifically? Solid, thick outlines with flat hues? Non-black outlines with limited tints/shades? Emphasize smooth curvatures over sharp angles? Describe a set of general rules depicting your style here.
 
-Well-designed feedback, both good (e.g. leveling up) and bad (e.g. being hit), are great for teaching the player how to play through trial and error, instead of scripting a lengthy tutorial. What kind of visual feedback are you going to use to let the player know they&#39;re interacting with something? That they \can\ interact with something?
+We will have visual feedback in the form of colors, every time the character gets hurt the game will display a red color over him. When a level is completed the game will display flashing colors asimilating fireworks to represent success and goal achievement.
+
 
 ### _Graphics Needed_
 
 1. Characters
    1. Human-like
-      1. Goblin (idle, walking, throwing)
-      2. Guard (idle, walking, stabbing)
-      3. Prisoner (walking, running)
-   2. Other
-      1. Wolf (idle, walking, running)
-      2. Giant Rat (idle, scurrying)
+      1. Basic Jim (idle, jumping)
+      2. Disco Stew (idle, jumping)
+      3. Punk Bill (idle, jumping)
 2. Blocks
-   1. Dirt
-   2. Dirt/Grass
-   3. Stone Block
-   4. Stone Bricks
-   5. Tiled Floor
-   6. Weathered Stone Block
-   7. Weathered Stone Bricks
+   1. Whole note (4 beats)
+   2. Half note (2 beats)
+   3. Quarter note (1 beat)
+   4. Eighth note (1/2 beat)
+   5. Whole rest (4 beat silence)
+   6. Half rest (2 beat silence)
+   7. Quarter rest (1 beat silence)
+   8. Eighth rest (1/2 beat silence)
 3. Ambient
-   1. Tall Grass
-   2. Rodent (idle, scurrying)
-   3. Torch
-   4. Armored Suit
-   5. Chains (matching Weathered Stone Bricks)
-   6. Blood stains (matching Weathered Stone Bricks)
+   1. Buildings
+   2. Bridges
+   3. Spaceships
+   4. Hills
+   5. Moons
+   6. Neon signs
 4. Other
-   1. Chest
-   2. Door (matching Stone Bricks)
-   3. Gate
-   4. Button (matching Weathered Stone Bricks)
+   1. Ceiling
+   2. Floor
+   3. Goal Flag
 
-(example)
 
 ## Sounds/Music
 
