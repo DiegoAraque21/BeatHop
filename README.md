@@ -187,6 +187,7 @@ The main colors that we will be using are purple, yellow, orange, red, blue and 
 
 
 "Future"
+<br>
 <img src="./Images/assets/pallete2.png" width="250">
 <br>
 "Mars"
