@@ -185,6 +185,7 @@ The main colors that we will be using are purple, yellow, orange, red, blue and 
 
 <p align="center"
 
+
 "Future"
 <img src="./Images/assets/pallete2.png" width="250">
 <br>
