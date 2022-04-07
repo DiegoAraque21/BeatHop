@@ -8,7 +8,7 @@ CREATE TABLE User (
      idUser INT UNSIGNED NOT NULL AUTO_INCREMENT,
      name VARCHAR(30) NOT NULL,
      lastName VARCHAR(30) NOT NULL,
-     email VARCHAR(40) NOT NULL,
+     email VARCHAR(40) NOT NULL UNIQUE,
      password VARCHAR(30) NOT NULL,
      userType VARCHAR(10) NOT NULL,
      age INT NOT NULL,
