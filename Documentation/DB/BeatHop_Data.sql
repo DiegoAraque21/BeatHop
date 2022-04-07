@@ -18,7 +18,7 @@ INSERT INTO User (name, lastName, email, password, userType, age, gender) VALUES
 ("Szilord","Hopson","szi.hopso@arketmay.com", "234234", "admin", 25, "M"),
 ("Ziggy","Newberg","zigg-new@acusage.net", "43253", "player", 16, "M"),
 ("Angie","Kutz","ang.kut@arvinmeritor.info", "65353", "player", 27, "F"),
-("Elmas","Mikell","elmmi@egl-inc.info", "4324234", "player", 34, F"),
+("Elmas","Mikell","elmmi@egl-inc.info", "4324234", "player", 34, "F"),
 ("Diego","Vikriti","vikrit_dieg@arvinmeritor.info", "3423423", 16, "F");
 
 -- INSERT FORM
