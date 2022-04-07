@@ -8,7 +8,24 @@ INSERT INTO User (name, lastName, email, password, userType, age, gender) VALUES
 INSERT INTO Form (idUser, answer1, answer2, answer3) VALUES
 (1, "A lot", "Guitar", "Little"),
 (2, "Little", "Piano", "Little"),
-(3, "Some", "Drums", "A lot");
+(3, "Some", "Drums", "A lot"),
+(4, "Little", "Drums", "Nothing"),
+(5, "A lot", "Drums", "A lot"),
+(6, "A lot", "Drums", "A lot"),
+(7, "Little", "Piano", "Little"),
+(8, "A lot", "Drums", "Nothing"),
+(9, "Little", "None", "Nothing"),
+(10, "Little", "Guitar", "Little"),
+(11, "A lot", "Guitar", "Little"),
+(12, "Some", "None", "Little"),
+(13, "Some", "Guitar", "Nothing"),
+(14, "Nothing", "Drums", "A lot"),
+(15, "Nothing", "None", "Some"),
+(16, "Nothing", "Drums", "Nothing"),
+(17, "Some", "Piano", "A lot"),
+(18, "A lot", "Piano", "A lot"),
+(19, "A lot", "Guitar", "Some"),
+(20, "A lot", "Drums", "Little");
 
 -- INSERT LEVEL
 INSERT INTO Level (levelName, avgScore, totalDeaths, totalTries) VALUES
