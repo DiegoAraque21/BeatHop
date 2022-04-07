@@ -12,7 +12,7 @@ INSERT INTO User (name, lastName, email, password, userType, age, gender) VALUES
 ("Miklos","Hopson","miklos_hops@acusage.net", "3983983", "player", 20, "M"),
 ("Sam","Willcox","sa.wi@careful-organics.org", "83838", "player", 19, "M"),
 ("Christian","Xia","ch.xi@egl-inc.info", "1342", "player", 22, "M"),
-("Vitus","Greig","vitu.gre@consolidated-farm-research.net", "342", "player,, 19, "M"),
+("Vitus","Greig","vitu.gre@consolidated-farm-research.net", "342", "player, 19, "M"),
 ("Sharmistha","Helmuth","shar-helmut@egl-inc.info", "783893", "player",20, "F"),
 ("Ebba","Bedwell","eb_bedwel@diaperstack.com", "43256", "player", 24, "F"),
 ("Szilord","Hopson","szi.hopso@arketmay.com", "234234", "admin", 25, "M"),
