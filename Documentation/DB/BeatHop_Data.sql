@@ -1,25 +1,28 @@
+-- USE BEATHOP SCHEME
+USE beathop;
+
 -- INSERT USER
 INSERT INTO User (name, lastName, email, password, userType, age, gender) VALUES
 ("Marius", "Linares", "mlinares@gmail.com", "123123", "player", 27, "M"),
 ("Gloria", "Saenz", "gsaenz@gmail.com", "123123", "player", 56, "F"),
 ("Florentino", "Comas", "fcomas@gmail.com", "123123", "admin", 24, "F"),
-("Pedro", "Perez", "pedroperez@gmail.com", "454212", "player", 18 "M"),
-("Maria" "Lopez", "mlopez@gmail.com", "533222", "admin", 30, "F"),
-("Bonnie","Flippen","bonfl@egl-inc.info", "344232", "player", 21, "F"),
-("Adir","Moffatt","ad.moffatt@diaperstack.com", "4532423" "player", 17 "M"),
-("Roderigo","Greig","ro.greig@diaperstack.com", "8675656", "player", 28, "M"),
-("Becse","Hosey","becs.ho@acusage.net", "08678", "admin", 16, "M"),
-("Miklos","Hopson","miklos_hops@acusage.net", "3983983", "player", 20, "M"),
-("Sam","Willcox","sa.wi@careful-organics.org", "83838", "player", 19, "M"),
-("Christian","Xia","ch.xi@egl-inc.info", "1342", "player", 22, "M"),
-("Vitus","Greig","vitu.gre@consolidated-farm-research.net", "342", "player, 19, "M"),
-("Sharmistha","Helmuth","shar-helmut@egl-inc.info", "783893", "player",20, "F"),
-("Ebba","Bedwell","eb_bedwel@diaperstack.com", "43256", "player", 24, "F"),
-("Szilord","Hopson","szi.hopso@arketmay.com", "234234", "admin", 25, "M"),
-("Ziggy","Newberg","zigg-new@acusage.net", "43253", "player", 16, "M"),
-("Angie","Kutz","ang.kut@arvinmeritor.info", "65353", "player", 27, "F"),
-("Elmas","Mikell","elmmi@egl-inc.info", "4324234", "player", 34, "F"),
-("Diego","Vikriti","vikrit_dieg@arvinmeritor.info", "3423423", 16, "F");
+("Pedro", "Perez", "pedroperez@gmail.com", "454212", "player", 18, "M"),
+("Maria", "Lopez", "mlopez@gmail.com", "533222", "admin", 30, "F"),
+("Bonnie", "Flippen", "bonfl@egl-inc.info", "344232", "player", 21, "F"),
+("Adir", "Moffatt", "ad.moffatt@diaperstack.com", "4532423", "player", 17, "M"),
+("Roderigo", "Greig", "ro.greig@diaperstack.com", "8675656", "player", 28, "M"),
+("Becse", "Hosey", "becs.ho@acusage.net", "08678", "admin", 16, "M"),
+("Miklos", "Hopson", "miklos_hops@acusage.net", "3983983", "player", 20, "M"),
+("Sam", "Willcox", "sa.wi@careful-organics.org", "83838", "player", 19, "M"),
+("Christian", "Xia", "ch.xi@egl-inc.info", "1342", "player", 22, "M"),
+("Vitus", "Greig", "vitu.gre@consolidated-farm-research.net", "342", "player", 19, "M"),
+("Sharmistha", "Helmuth", "shar-helmut@egl-inc.info", "783893", "player", 20, "F"),
+("Ebba", "Bedwell", "eb_bedwel@diaperstack.com", "43256", "player", 24, "F"),
+("Szilord", "Hopson", "szi.hopso@arketmay.com", "234234", "admin", 25, "M"),
+("Ziggy", "Newberg", "zigg-new@acusage.net", "43253", "player", 16, "M"),
+("Angie", "Kutz", "ang.kut@arvinmeritor.info", "65353", "player", 27, "F"),
+("Elmas", "Mikell", "elmmi@egl-inc.info", "4324234", "player", 34, "F"),
+("Diego", "Altamirano", "diegoalt@gmail.com", "4324234", "admin", 34, "F");
 
 -- INSERT FORM
 INSERT INTO Form (idUser, answer1, answer2, answer3) VALUES
