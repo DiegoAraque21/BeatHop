@@ -25,7 +25,7 @@ INSERT INTO User (name, lastName, email, password, userType, age, gender, idForm
 ("Diego", "Altamirano", "diegoalt@gmail.com", "4324234", "admin", 34, "F", 20);
 
 -- INSERT FORM
-INSERT INTO Form (idUser, answer1, answer2, answer3) VALUES
+INSERT INTO Form (answer1, answer2, answer3) VALUES
 ("A lot", "Guitar", "Little"),
 ("Little", "Piano", "Little"),
 ("Some", "Drums", "A lot"),

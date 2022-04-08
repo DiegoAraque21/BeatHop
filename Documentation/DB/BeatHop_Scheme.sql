@@ -13,17 +13,17 @@ CREATE TABLE User (
      userType VARCHAR(10) NOT NULL,
      age INT NOT NULL,
      gender CHAR(1) NOT NULL,
-     PRIMARY KEY (idUser)
+     idForm INT UNSIGNED NOT NULL,
+     PRIMARY KEY (idUser),
+     FOREIGN KEY (idForm) REFERENCES Form(idForm)
 );
 
 CREATE TABLE Form (
      idForm INT UNSIGNED NOT NULL AUTO_INCREMENT,
-     idUser INT UNSIGNED NOT NULL,
      answer1 VARCHAR(30) NOT NULL,
      answer2 VARCHAR(30) NOT NULL,
      answer3 VARCHAR(30) NOT NULL,
-     PRIMARY KEY (idForm),
-     FOREIGN KEY (idUser) REFERENCES User(idUser)
+     PRIMARY KEY (idForm)
 );
 
 CREATE TABLE Level (
