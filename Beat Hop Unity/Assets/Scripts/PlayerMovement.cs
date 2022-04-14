@@ -34,6 +34,9 @@ public class PlayerMovement : MonoBehaviour
     {   
         
         Jump();
+        var rotationVector = transform.rotation.eulerAngles;
+        rotationVector.z = 0;
+        transform.rotation = Quaternion.Euler(rotationVector);
     }
  
     void FixedUpdate()
