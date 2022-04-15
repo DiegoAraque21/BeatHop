@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 29088887}
   - component: {fileID: 29088888}
+  - component: {fileID: 29088889}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -205,6 +206,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &29088889
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29088886}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &36609908
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,6 +242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 36609909}
   - component: {fileID: 36609910}
+  - component: {fileID: 36609911}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -287,6 +315,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &36609911
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36609908}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &56633367
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,6 +553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 102336405}
   - component: {fileID: 102336406}
+  - component: {fileID: 102336407}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -571,6 +626,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &102336407
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102336404}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &106442487
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 106442488}
   - component: {fileID: 106442489}
+  - component: {fileID: 106442490}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -653,6 +735,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &106442490
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106442487}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &122334216
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 122334217}
   - component: {fileID: 122334218}
+  - component: {fileID: 122334219}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -735,6 +844,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &122334219
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122334216}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &135958646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141148765}
   - component: {fileID: 141148766}
+  - component: {fileID: 141148767}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -1072,6 +1208,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &141148767
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141148764}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &151322344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1082,6 +1244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 151322345}
   - component: {fileID: 151322346}
+  - component: {fileID: 151322347}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -1154,6 +1317,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &151322347
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151322344}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &153457610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,6 +1353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 153457611}
   - component: {fileID: 153457612}
+  - component: {fileID: 153457613}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -1236,6 +1426,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &153457613
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153457610}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &171499589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,6 +1462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 171499590}
   - component: {fileID: 171499591}
+  - component: {fileID: 171499592}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -1318,6 +1535,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &171499592
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171499589}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &172391065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,6 +1699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 178044742}
   - component: {fileID: 178044743}
+  - component: {fileID: 178044744}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -1528,6 +1772,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &178044744
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178044741}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &203871192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,6 +1883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 207762141}
   - component: {fileID: 207762142}
+  - component: {fileID: 207762143}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -1685,6 +1956,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &207762143
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207762140}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &217496132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,6 +2181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 272650029}
   - component: {fileID: 272650030}
+  - component: {fileID: 272650031}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -1956,6 +2254,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &272650031
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272650028}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &281704170
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,6 +2372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 282298030}
   - component: {fileID: 282298031}
+  - component: {fileID: 282298032}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -2120,6 +2445,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &282298032
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282298029}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &300448004
 GameObject:
   m_ObjectHideFlags: 0
@@ -2359,6 +2710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 344880013}
   - component: {fileID: 344880014}
+  - component: {fileID: 344880015}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -2431,6 +2783,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &344880015
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344880012}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &377914550
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,6 +2899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 392587494}
   - component: {fileID: 392587495}
+  - component: {fileID: 392587496}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -2593,6 +2972,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &392587496
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392587493}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &401088858
 GameObject:
   m_ObjectHideFlags: 0
@@ -2603,6 +3008,7 @@ GameObject:
   m_Component:
   - component: {fileID: 401088859}
   - component: {fileID: 401088860}
+  - component: {fileID: 401088861}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -2675,6 +3081,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &401088861
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401088858}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &414385033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2685,6 +3117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 414385034}
   - component: {fileID: 414385035}
+  - component: {fileID: 414385036}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -2757,6 +3190,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &414385036
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414385033}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &415367959
 GameObject:
   m_ObjectHideFlags: 0
@@ -2767,6 +3226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 415367960}
   - component: {fileID: 415367961}
+  - component: {fileID: 415367962}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -2839,6 +3299,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &415367962
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415367959}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &418426165
 GameObject:
   m_ObjectHideFlags: 0
@@ -2924,6 +3410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 432939253}
   - component: {fileID: 432939254}
+  - component: {fileID: 432939255}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -2996,6 +3483,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &432939255
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432939252}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &441948787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3088,6 +3601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447021942}
   - component: {fileID: 447021943}
+  - component: {fileID: 447021944}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -3160,6 +3674,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &447021944
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447021941}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &448883483
 GameObject:
   m_ObjectHideFlags: 0
@@ -3170,6 +3710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 448883484}
   - component: {fileID: 448883485}
+  - component: {fileID: 448883486}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -3242,6 +3783,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &448883486
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448883483}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &451582969
 GameObject:
   m_ObjectHideFlags: 0
@@ -3252,6 +3819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 451582970}
   - component: {fileID: 451582971}
+  - component: {fileID: 451582972}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -3324,6 +3892,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &451582972
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451582969}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &458979359
 GameObject:
   m_ObjectHideFlags: 0
@@ -3334,6 +3928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458979360}
   - component: {fileID: 458979361}
+  - component: {fileID: 458979362}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -3406,6 +4001,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &458979362
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458979359}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &470878879
 GameObject:
   m_ObjectHideFlags: 0
@@ -3416,6 +4037,7 @@ GameObject:
   m_Component:
   - component: {fileID: 470878880}
   - component: {fileID: 470878881}
+  - component: {fileID: 470878882}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -3488,6 +4110,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &470878882
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470878879}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &482915731
 GameObject:
   m_ObjectHideFlags: 0
@@ -3580,6 +4228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 492076568}
   - component: {fileID: 492076569}
+  - component: {fileID: 492076570}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -3652,6 +4301,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &492076570
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492076567}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &508217253
 GameObject:
   m_ObjectHideFlags: 0
@@ -3776,6 +4451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 510961684}
   - component: {fileID: 510961685}
+  - component: {fileID: 510961686}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -3848,6 +4524,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &510961686
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510961683}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &519758021
 GameObject:
   m_ObjectHideFlags: 0
@@ -3858,6 +4560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519758022}
   - component: {fileID: 519758023}
+  - component: {fileID: 519758024}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -3930,6 +4633,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &519758024
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519758021}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &547874133
 GameObject:
   m_ObjectHideFlags: 0
@@ -3940,6 +4669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547874134}
   - component: {fileID: 547874135}
+  - component: {fileID: 547874136}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -4012,6 +4742,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &547874136
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547874133}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &548956456
 GameObject:
   m_ObjectHideFlags: 0
@@ -4022,6 +4778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 548956457}
   - component: {fileID: 548956458}
+  - component: {fileID: 548956459}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -4094,6 +4851,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &548956459
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548956456}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &556633885
 GameObject:
   m_ObjectHideFlags: 0
@@ -4186,6 +4969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 558916927}
   - component: {fileID: 558916928}
+  - component: {fileID: 558916929}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -4258,6 +5042,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &558916929
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558916926}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &563180117
 GameObject:
   m_ObjectHideFlags: 0
@@ -4343,6 +5153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 563339512}
   - component: {fileID: 563339513}
+  - component: {fileID: 563339514}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -4415,6 +5226,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &563339514
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563339511}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &566749149
 GameObject:
   m_ObjectHideFlags: 0
@@ -4425,6 +5262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566749150}
   - component: {fileID: 566749151}
+  - component: {fileID: 566749152}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -4497,6 +5335,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &566749152
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566749149}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &570969491
 GameObject:
   m_ObjectHideFlags: 0
@@ -4507,6 +5371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 570969492}
   - component: {fileID: 570969493}
+  - component: {fileID: 570969494}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -4579,6 +5444,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &570969494
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570969491}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &603839245
 GameObject:
   m_ObjectHideFlags: 0
@@ -5003,6 +5894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647257789}
   - component: {fileID: 647257790}
+  - component: {fileID: 647257791}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -5075,6 +5967,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &647257791
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647257788}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &653046827
 GameObject:
   m_ObjectHideFlags: 0
@@ -5085,6 +6003,7 @@ GameObject:
   m_Component:
   - component: {fileID: 653046828}
   - component: {fileID: 653046829}
+  - component: {fileID: 653046830}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -5157,6 +6076,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &653046830
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653046827}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &667809278
 GameObject:
   m_ObjectHideFlags: 0
@@ -5280,6 +6225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 677880039}
   - component: {fileID: 677880040}
+  - component: {fileID: 677880041}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -5352,6 +6298,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &677880041
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677880038}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &686282190
 GameObject:
   m_ObjectHideFlags: 0
@@ -5626,6 +6598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 738663899}
   - component: {fileID: 738663900}
+  - component: {fileID: 738663901}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -5698,6 +6671,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &738663901
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738663898}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &749740192
 GameObject:
   m_ObjectHideFlags: 0
@@ -5790,6 +6789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 752833891}
   - component: {fileID: 752833892}
+  - component: {fileID: 752833893}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -5862,6 +6862,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &752833893
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752833890}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &762053501
 GameObject:
   m_ObjectHideFlags: 0
@@ -5872,6 +6898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 762053502}
   - component: {fileID: 762053503}
+  - component: {fileID: 762053504}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -5944,6 +6971,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &762053504
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762053501}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &767894499
 GameObject:
   m_ObjectHideFlags: 0
@@ -6118,6 +7171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 787553352}
   - component: {fileID: 787553353}
+  - component: {fileID: 787553354}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -6190,6 +7244,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &787553354
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787553351}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &789224124
 GameObject:
   m_ObjectHideFlags: 0
@@ -6238,6 +7318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 839576980}
   - component: {fileID: 839576981}
+  - component: {fileID: 839576982}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -6310,6 +7391,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &839576982
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839576979}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &841306245
 GameObject:
   m_ObjectHideFlags: 0
@@ -6358,6 +7465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 848587889}
   - component: {fileID: 848587890}
+  - component: {fileID: 848587891}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -6430,6 +7538,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &848587891
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848587888}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &850800264
 GameObject:
   m_ObjectHideFlags: 0
@@ -6674,6 +7808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 854532169}
   - component: {fileID: 854532170}
+  - component: {fileID: 854532171}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -6746,6 +7881,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &854532171
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854532168}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &854770009
 GameObject:
   m_ObjectHideFlags: 0
@@ -6756,6 +7917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 854770010}
   - component: {fileID: 854770011}
+  - component: {fileID: 854770012}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -6828,6 +7990,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &854770012
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854770009}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &862865657
 GameObject:
   m_ObjectHideFlags: 0
@@ -6920,6 +8108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 871168928}
   - component: {fileID: 871168929}
+  - component: {fileID: 871168930}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -6992,6 +8181,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &871168930
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871168927}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &889256600
 GameObject:
   m_ObjectHideFlags: 0
@@ -7318,6 +8533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 922699038}
   - component: {fileID: 922699039}
+  - component: {fileID: 922699040}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -7390,6 +8606,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &922699040
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922699037}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &923753375
 GameObject:
   m_ObjectHideFlags: 0
@@ -7722,6 +8964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 953361434}
   - component: {fileID: 953361435}
+  - component: {fileID: 953361436}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -7794,6 +9037,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &953361436
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953361433}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &958697054
 GameObject:
   m_ObjectHideFlags: 0
@@ -8258,6 +9527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1027071984}
   - component: {fileID: 1027071985}
+  - component: {fileID: 1027071986}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -8330,6 +9600,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1027071986
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027071983}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1036937899
 GameObject:
   m_ObjectHideFlags: 0
@@ -8618,6 +9914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1061139850}
   - component: {fileID: 1061139851}
+  - component: {fileID: 1061139852}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -8690,6 +9987,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1061139852
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061139849}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1068653235
 GameObject:
   m_ObjectHideFlags: 0
@@ -8700,6 +10023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1068653236}
   - component: {fileID: 1068653237}
+  - component: {fileID: 1068653238}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -8772,6 +10096,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1068653238
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068653235}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1069246052
 GameObject:
   m_ObjectHideFlags: 0
@@ -8915,6 +10265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1084546028}
   - component: {fileID: 1084546029}
+  - component: {fileID: 1084546030}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -8987,6 +10338,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1084546030
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084546027}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1086898382
 GameObject:
   m_ObjectHideFlags: 0
@@ -8997,6 +10374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086898383}
   - component: {fileID: 1086898384}
+  - component: {fileID: 1086898385}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -9069,6 +10447,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1086898385
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086898382}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1094512368
 GameObject:
   m_ObjectHideFlags: 0
@@ -9325,6 +10729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1109946927}
   - component: {fileID: 1109946928}
+  - component: {fileID: 1109946929}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -9397,6 +10802,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1109946929
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109946926}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1127303978
 GameObject:
   m_ObjectHideFlags: 0
@@ -9407,6 +10838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1127303979}
   - component: {fileID: 1127303980}
+  - component: {fileID: 1127303981}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -9479,6 +10911,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1127303981
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127303978}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1153704246
 GameObject:
   m_ObjectHideFlags: 0
@@ -9698,6 +11156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1164287497}
   - component: {fileID: 1164287498}
+  - component: {fileID: 1164287499}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -9770,6 +11229,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1164287499
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164287496}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1166620338
 GameObject:
   m_ObjectHideFlags: 0
@@ -9862,6 +11347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1173589422}
   - component: {fileID: 1173589423}
+  - component: {fileID: 1173589424}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -9934,6 +11420,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1173589424
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173589421}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1177836167
 GameObject:
   m_ObjectHideFlags: 0
@@ -9944,6 +11456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1177836168}
   - component: {fileID: 1177836169}
+  - component: {fileID: 1177836170}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -10016,6 +11529,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1177836170
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177836167}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1185807405
 GameObject:
   m_ObjectHideFlags: 3
@@ -10180,6 +11719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1218048466}
   - component: {fileID: 1218048467}
+  - component: {fileID: 1218048468}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -10252,6 +11792,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1218048468
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218048465}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1239434329
 GameObject:
   m_ObjectHideFlags: 0
@@ -10344,6 +11910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1240004296}
   - component: {fileID: 1240004297}
+  - component: {fileID: 1240004298}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -10416,6 +11983,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1240004298
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240004295}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1272089992
 GameObject:
   m_ObjectHideFlags: 0
@@ -10540,6 +12133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1291452801}
   - component: {fileID: 1291452802}
+  - component: {fileID: 1291452803}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -10612,6 +12206,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1291452803
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291452800}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1305529490
 GameObject:
   m_ObjectHideFlags: 0
@@ -10622,6 +12242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1305529491}
   - component: {fileID: 1305529492}
+  - component: {fileID: 1305529493}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -10694,6 +12315,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1305529493
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305529490}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1309585682
 GameObject:
   m_ObjectHideFlags: 0
@@ -10786,6 +12433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1316164920}
   - component: {fileID: 1316164921}
+  - component: {fileID: 1316164922}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -10858,6 +12506,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1316164922
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316164919}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1321257840
 GameObject:
   m_ObjectHideFlags: 0
@@ -11032,6 +12706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1332849302}
   - component: {fileID: 1332849303}
+  - component: {fileID: 1332849304}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -11104,6 +12779,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1332849304
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332849301}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1341277553
 GameObject:
   m_ObjectHideFlags: 0
@@ -11196,6 +12897,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1344179601}
   - component: {fileID: 1344179602}
+  - component: {fileID: 1344179603}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -11268,6 +12970,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1344179603
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344179600}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1362568550
 GameObject:
   m_ObjectHideFlags: 0
@@ -11278,6 +13006,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1362568551}
   - component: {fileID: 1362568552}
+  - component: {fileID: 1362568553}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -11350,6 +13079,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1362568553
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362568550}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1363585427
 GameObject:
   m_ObjectHideFlags: 0
@@ -11360,6 +13115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1363585428}
   - component: {fileID: 1363585429}
+  - component: {fileID: 1363585430}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -11432,6 +13188,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1363585430
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363585427}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1363737037
 GameObject:
   m_ObjectHideFlags: 0
@@ -11671,6 +13453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1385529663}
   - component: {fileID: 1385529664}
+  - component: {fileID: 1385529665}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -11743,6 +13526,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1385529665
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385529662}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1400418750
 GameObject:
   m_ObjectHideFlags: 0
@@ -11835,6 +13644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1410049928}
   - component: {fileID: 1410049929}
+  - component: {fileID: 1410049930}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -11907,6 +13717,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1410049930
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410049927}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1413598179
 GameObject:
   m_ObjectHideFlags: 0
@@ -12113,6 +13949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1436212813}
   - component: {fileID: 1436212814}
+  - component: {fileID: 1436212815}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -12185,6 +14022,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1436212815
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436212812}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1452801164
 GameObject:
   m_ObjectHideFlags: 0
@@ -12195,6 +14058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1452801165}
   - component: {fileID: 1452801166}
+  - component: {fileID: 1452801167}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -12267,6 +14131,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1452801167
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452801164}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1507309051
 GameObject:
   m_ObjectHideFlags: 0
@@ -12359,6 +14249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1516126799}
   - component: {fileID: 1516126800}
+  - component: {fileID: 1516126801}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -12431,6 +14322,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1516126801
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516126798}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1519453610
 GameObject:
   m_ObjectHideFlags: 0
@@ -12598,6 +14515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1542753992}
   - component: {fileID: 1542753993}
+  - component: {fileID: 1542753994}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -12670,6 +14588,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1542753994
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542753991}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1544820798
 GameObject:
   m_ObjectHideFlags: 0
@@ -12762,6 +14706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1549499503}
   - component: {fileID: 1549499504}
+  - component: {fileID: 1549499505}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -12834,6 +14779,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1549499505
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549499502}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1570129542
 GameObject:
   m_ObjectHideFlags: 0
@@ -13008,6 +14979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1575516554}
   - component: {fileID: 1575516555}
+  - component: {fileID: 1575516556}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -13080,6 +15052,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1575516556
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575516553}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1575846696
 GameObject:
   m_ObjectHideFlags: 0
@@ -13090,6 +15088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1575846697}
   - component: {fileID: 1575846698}
+  - component: {fileID: 1575846699}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -13162,6 +15161,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1575846699
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575846696}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1587046553
 GameObject:
   m_ObjectHideFlags: 0
@@ -13172,6 +15197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1587046554}
   - component: {fileID: 1587046555}
+  - component: {fileID: 1587046556}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -13244,6 +15270,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1587046556
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587046553}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1601774793
 GameObject:
   m_ObjectHideFlags: 0
@@ -13254,6 +15306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1601774794}
   - component: {fileID: 1601774795}
+  - component: {fileID: 1601774796}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -13326,6 +15379,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1601774796
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601774793}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1605439620
 GameObject:
   m_ObjectHideFlags: 0
@@ -13336,6 +15415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1605439621}
   - component: {fileID: 1605439622}
+  - component: {fileID: 1605439623}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -13408,6 +15488,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1605439623
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605439620}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1606628168
 GameObject:
   m_ObjectHideFlags: 0
@@ -13828,6 +15934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1634280346}
   - component: {fileID: 1634280347}
+  - component: {fileID: 1634280348}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -13900,6 +16007,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1634280348
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634280345}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1640002434
 GameObject:
   m_ObjectHideFlags: 0
@@ -13910,6 +16043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1640002435}
   - component: {fileID: 1640002436}
+  - component: {fileID: 1640002437}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -13982,6 +16116,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1640002437
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640002434}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1684292293
 GameObject:
   m_ObjectHideFlags: 0
@@ -13992,6 +16152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1684292294}
   - component: {fileID: 1684292295}
+  - component: {fileID: 1684292296}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -14064,6 +16225,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1684292296
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684292293}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1705605825
 GameObject:
   m_ObjectHideFlags: 0
@@ -14156,6 +16343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1718544457}
   - component: {fileID: 1718544458}
+  - component: {fileID: 1718544459}
   m_Layer: 0
   m_Name: blackNoteObstacle (7)
   m_TagString: Obstacle
@@ -14228,6 +16416,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1718544459
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718544456}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1734148605
 GameObject:
   m_ObjectHideFlags: 0
@@ -14352,6 +16566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1746499555}
   - component: {fileID: 1746499556}
+  - component: {fileID: 1746499557}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -14424,6 +16639,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1746499557
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746499554}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1751286019
 GameObject:
   m_ObjectHideFlags: 0
@@ -14434,6 +16675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1751286020}
   - component: {fileID: 1751286021}
+  - component: {fileID: 1751286022}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -14506,6 +16748,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1751286022
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751286019}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1768956337
 GameObject:
   m_ObjectHideFlags: 0
@@ -14516,6 +16784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768956338}
   - component: {fileID: 1768956339}
+  - component: {fileID: 1768956340}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -14588,6 +16857,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1768956340
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768956337}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1774568979
 GameObject:
   m_ObjectHideFlags: 0
@@ -14892,6 +17187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1788702600}
   - component: {fileID: 1788702601}
+  - component: {fileID: 1788702602}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -14964,6 +17260,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1788702602
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788702599}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1799408013
 GameObject:
   m_ObjectHideFlags: 0
@@ -14974,6 +17296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1799408014}
   - component: {fileID: 1799408015}
+  - component: {fileID: 1799408016}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -15046,6 +17369,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1799408016
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799408013}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1802698472
 GameObject:
   m_ObjectHideFlags: 0
@@ -15056,6 +17405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1802698473}
   - component: {fileID: 1802698474}
+  - component: {fileID: 1802698475}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -15128,6 +17478,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1802698475
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802698472}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1811629172
 GameObject:
   m_ObjectHideFlags: 0
@@ -15138,6 +17514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1811629173}
   - component: {fileID: 1811629174}
+  - component: {fileID: 1811629175}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -15210,6 +17587,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1811629175
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811629172}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1817391923
 GameObject:
   m_ObjectHideFlags: 0
@@ -15374,6 +17777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1844035426}
   - component: {fileID: 1844035427}
+  - component: {fileID: 1844035428}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -15446,6 +17850,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1844035428
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844035425}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1853529192
 GameObject:
   m_ObjectHideFlags: 0
@@ -15493,6 +17923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854964633}
   - component: {fileID: 1854964634}
+  - component: {fileID: 1854964635}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -15565,6 +17996,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1854964635
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854964632}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1888660200
 GameObject:
   m_ObjectHideFlags: 0
@@ -15657,6 +18114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1890851990}
   - component: {fileID: 1890851991}
+  - component: {fileID: 1890851992}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -15729,6 +18187,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1890851992
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890851989}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1892239532
 GameObject:
   m_ObjectHideFlags: 0
@@ -16024,6 +18508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1903590516}
   - component: {fileID: 1903590517}
+  - component: {fileID: 1903590518}
   m_Layer: 0
   m_Name: blackNoteObstacle (3)
   m_TagString: Obstacle
@@ -16096,6 +18581,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1903590518
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903590515}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1904185356
 GameObject:
   m_ObjectHideFlags: 0
@@ -16106,6 +18617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1904185357}
   - component: {fileID: 1904185358}
+  - component: {fileID: 1904185359}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -16178,6 +18690,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1904185359
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904185356}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1905430675
 GameObject:
   m_ObjectHideFlags: 0
@@ -16188,6 +18726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1905430676}
   - component: {fileID: 1905430677}
+  - component: {fileID: 1905430678}
   m_Layer: 0
   m_Name: blackNoteObstacle (8)
   m_TagString: Obstacle
@@ -16260,6 +18799,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1905430678
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905430675}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1908945515
 GameObject:
   m_ObjectHideFlags: 0
@@ -16352,6 +18917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1918701144}
   - component: {fileID: 1918701145}
+  - component: {fileID: 1918701146}
   m_Layer: 0
   m_Name: blackNoteObstacle (6)
   m_TagString: Obstacle
@@ -16424,6 +18990,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1918701146
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918701143}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1951033167
 GameObject:
   m_ObjectHideFlags: 0
@@ -16641,6 +19233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1962636880}
   - component: {fileID: 1962636881}
+  - component: {fileID: 1962636882}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -16713,6 +19306,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1962636882
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962636879}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1964086030
 GameObject:
   m_ObjectHideFlags: 0
@@ -16805,6 +19424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972647137}
   - component: {fileID: 1972647138}
+  - component: {fileID: 1972647139}
   m_Layer: 0
   m_Name: blackNoteObstacle (4)
   m_TagString: Obstacle
@@ -16877,6 +19497,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1972647139
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972647136}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1973343702
 GameObject:
   m_ObjectHideFlags: 0
@@ -17133,6 +19779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1982491399}
   - component: {fileID: 1982491400}
+  - component: {fileID: 1982491401}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -17205,6 +19852,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1982491401
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982491398}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &1994514736
 GameObject:
   m_ObjectHideFlags: 0
@@ -17215,6 +19888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1994514737}
   - component: {fileID: 1994514738}
+  - component: {fileID: 1994514739}
   m_Layer: 0
   m_Name: blackNoteObstacle (1)
   m_TagString: Obstacle
@@ -17287,6 +19961,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1994514739
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994514736}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &2029952599
 GameObject:
   m_ObjectHideFlags: 0
@@ -17379,6 +20079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2048978655}
   - component: {fileID: 2048978656}
+  - component: {fileID: 2048978657}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -17451,6 +20152,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2048978657
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048978654}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &2050846194
 GameObject:
   m_ObjectHideFlags: 0
@@ -17461,6 +20188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2050846195}
   - component: {fileID: 2050846196}
+  - component: {fileID: 2050846197}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -17533,6 +20261,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2050846197
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050846194}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &2059192380
 GameObject:
   m_ObjectHideFlags: 0
@@ -17618,6 +20372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2083119383}
   - component: {fileID: 2083119384}
+  - component: {fileID: 2083119385}
   m_Layer: 0
   m_Name: blackNoteObstacle (2)
   m_TagString: Obstacle
@@ -17690,6 +20445,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2083119385
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083119382}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &2095519248
 GameObject:
   m_ObjectHideFlags: 0
@@ -17700,6 +20481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095519249}
   - component: {fileID: 2095519250}
+  - component: {fileID: 2095519251}
   m_Layer: 0
   m_Name: blackNoteObstacle (5)
   m_TagString: Obstacle
@@ -17772,6 +20554,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2095519251
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095519248}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 3.64}
+    newSize: {x: 3.72, y: 3.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72, y: 3.64}
+  m_EdgeRadius: 0
 --- !u!1 &2098682218
 GameObject:
   m_ObjectHideFlags: 0
