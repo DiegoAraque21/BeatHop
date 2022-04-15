@@ -18,8 +18,15 @@ public class LifeCount : MonoBehaviour
         }
     }
 
-    private void Update(){
-        if(Input.GetKeyDown(KeyCode.Return)){
+
+    void OnCollisionEnter2D(Collision2D col){
+        if (col.gameObject.tag == "Obstacle"){
+            LoseLife();
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D col) {
+        if (col.gameObject.tag == "Obstacle"){
             LoseLife();
         }
     }
