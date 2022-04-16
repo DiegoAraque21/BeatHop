@@ -4,7 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class LifeCount : MonoBehaviour
-{
+{   
+    public GameOverScreen GameOverScreen;
+    public LevelCompletedScreen LevelCompletedScreen;
+
+    public LevelScript LevelScript;
     public Image[] lives;
     public int livesRemaining;
 
@@ -14,6 +18,13 @@ public class LifeCount : MonoBehaviour
 
         // Lives are 0 === LOSE
         if(livesRemaining == 0){
+            GameOverScreen.Setup();
+            Time.timeScale = 0f;
+            AudioSource[] audios = FindObjectsOfType<AudioSource>();
+            foreach(AudioSource a in audios)
+            {
+                a.Pause();
+            }
             Debug.Log("You lost");
         }
     }
@@ -24,10 +35,25 @@ public class LifeCount : MonoBehaviour
             LoseLife();
         }
     }
-
-    void OnTriggerEnter2D(Collider2D col) {
+     void OnTriggerEnter2D(Collider2D col) {
         if (col.gameObject.tag == "Obstacle"){
             LoseLife();
         }
-    }
+
+        if (col.gameObject.tag == "FinishLine"){
+            
+            LevelScript.Pass();
+            LevelCompletedScreen.Setup(livesRemaining);
+            Time.timeScale = 0f;
+            AudioSource[] audios = FindObjectsOfType<AudioSource>();
+            foreach(AudioSource a in audios)
+            {
+                a.Pause();
+            }
+        }
+     }
+
+    // void OnTriggerEnter2D(Collider2D col) {
+      
+    // }
 }

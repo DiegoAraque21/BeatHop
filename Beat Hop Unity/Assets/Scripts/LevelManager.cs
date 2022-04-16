@@ -15,11 +15,11 @@ public class LevelManager : MonoBehaviour
         levelsUnlocked = PlayerPrefs.GetInt("levelsUnlocked",1);
 
         // buttons.Length
-        for (int i = 1; i < buttons.Length; i++)
+        for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].interactable = false;
-        }
-
+        }   
+        //comment below loop to block levels again
         for (int i = 0; i < levelsUnlocked; i++)
         {
             buttons[i].interactable = true;
