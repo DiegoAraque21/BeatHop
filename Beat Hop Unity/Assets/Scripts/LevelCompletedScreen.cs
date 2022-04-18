@@ -12,9 +12,9 @@ public class LevelCompletedScreen : MonoBehaviour
     public void Setup(int lives, int tries)
     {   
         if(tries > 1){
-            livesText.text = "with " + lives.ToString() + " lives in " + tries.ToString() + "tries";
+            livesText.text = "with " + lives.ToString() + " lives in " + tries.ToString() + " tries";
         } else{
-            livesText.text = "with " + lives.ToString() + " lives in " + tries.ToString() + "try";
+            livesText.text = "with " + lives.ToString() + " lives in " + tries.ToString() + " try";
         }
         gameObject.SetActive(true);
     }
