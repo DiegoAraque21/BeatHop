@@ -11,7 +11,7 @@ public class LifeCount : MonoBehaviour
     public LevelScript LevelScript;
     public Image[] lives;
     public int livesRemaining;
-    public int tries;
+    public int tries=1;
     
     public void LoseLife(){
         livesRemaining--;
