@@ -11,6 +11,7 @@ public class LifeCount : MonoBehaviour
     public LevelScript LevelScript;
     public Image[] lives;
     public int livesRemaining;
+    public int tries;
 
     public void LoseLife(){
         livesRemaining--;
@@ -18,6 +19,7 @@ public class LifeCount : MonoBehaviour
 
         // Lives are 0 === LOSE
         if(livesRemaining == 0){
+            tries ++;
             GameOverScreen.Setup();
             Time.timeScale = 0f;
             AudioSource[] audios = FindObjectsOfType<AudioSource>();
