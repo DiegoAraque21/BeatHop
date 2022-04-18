@@ -2,8 +2,19 @@ let express = require("express");
 let router = express.Router();
 let path = require("path");
 
+// Log In
 router.post("/login", function (req, res) {
-  res.sendFile(path.join(__dirname, "../templates/index.html"));
+  
+});
+
+// Sign Up
+router.post("/signup", function (req, res) {
+  
+});
+
+// New Form
+router.post("/form", function (req, res) {
+  
 });
 
 module.exports = router;
