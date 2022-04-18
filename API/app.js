@@ -1,10 +1,13 @@
+// Imports
 let express = require("express");
-let userRoad = require("./roads/userRoad.js");
+let userRouter = require("./routes/userRoutes.js");
 
+// Initialize app
 const app = express();
 const port = 3000;
-app.use("/user", userRoad);
 
-app.listen(port, () => {
-  console.log(`Server on port ${port}`);
-});
+// Routes
+app.use("/user", userRouter);
+
+// Listen
+app.listen(port, () => console.log(`Server on port ${port}`));
