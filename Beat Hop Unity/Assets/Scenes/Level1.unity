@@ -1897,7 +1897,6 @@ MonoBehaviour:
   - {fileID: 667809280}
   - {fileID: 140451526}
   livesRemaining: 10
-  tries: 0
 --- !u!4 &172391067
 Transform:
   m_ObjectHideFlags: 0
