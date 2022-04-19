@@ -1810,7 +1810,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 76.974}
+  m_SizeDelta: {x: 21.1724, y: 26.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &140451526
 MonoBehaviour:
@@ -1947,7 +1947,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 1.1443313
+  m_Mass: 0.86179644
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 5
@@ -1969,7 +1969,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.018294007, y: 0.3954658}
+  m_Offset: {x: 0.058266595, y: 0.3495295}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1980,7 +1980,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.45117027, y: 1.6909083}
+  m_Size: {x: 0.35929838, y: 1.5990357}
   m_EdgeRadius: 0
 --- !u!1 &176426502
 GameObject:
@@ -2406,7 +2406,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 75.2655}
+  m_SizeDelta: {x: 21.1724, y: 26.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &203871194
 MonoBehaviour:
@@ -2837,7 +2837,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 73.868}
+  m_SizeDelta: {x: 21.1724, y: 26.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &225416646
 MonoBehaviour:
@@ -4505,7 +4505,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 75.3691}
+  m_SizeDelta: {x: 21.1724, y: 26.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &418426167
 MonoBehaviour:
@@ -6904,7 +6904,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 75.8866}
+  m_SizeDelta: {x: 21.1724, y: 26.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &563180119
 MonoBehaviour:
@@ -7645,7 +7645,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 74.4373}
+  m_SizeDelta: {x: 21.1724, y: 26.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &627923462
 MonoBehaviour:
@@ -7956,7 +7956,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645844942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3002996, y: 0.47799993, z: -10}
+  m_LocalPosition: {x: -1.3749995, y: 0.59000015, z: -10}
   m_LocalScale: {x: 0.23294, y: 0.23294, z: 0.23294}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8256,7 +8256,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 75.829}
+  m_SizeDelta: {x: 21.1724, y: 26.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &667809280
 MonoBehaviour:
@@ -8574,8 +8574,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686282190}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1798, y: 0.258, z: 0}
-  m_LocalScale: {x: 0.2344355, y: 0.39654648, z: 0.23173}
+  m_LocalPosition: {x: 0.13, y: 0.37, z: 0}
+  m_LocalScale: {x: 0.28, y: 0.43, z: 0.23173}
   m_Children: []
   m_Father: {fileID: 172391067}
   m_RootOrder: 1
@@ -13633,8 +13633,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 178, y: -39.6}
-  m_SizeDelta: {x: 319.8449, y: 52.7305}
+  m_AnchoredPosition: {x: 128.2, y: -23.8}
+  m_SizeDelta: {x: 219.5061, y: 37.6797}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128818952
 MonoBehaviour:
@@ -13683,8 +13683,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 13
+  m_fontSizeBase: 13
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13719,7 +13719,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -45.645508, w: 0}
+  m_margin: {x: 0, y: 0, z: 0.3430786, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -14668,7 +14668,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189059860}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3002996, y: 0.47799993, z: -10}
+  m_LocalPosition: {x: -1.3749995, y: 0.59000015, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1185807406}
@@ -18424,7 +18424,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 75.529}
+  m_SizeDelta: {x: 21.1724, y: 26.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1529315440
 MonoBehaviour:
@@ -20769,7 +20769,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 75.4726}
+  m_SizeDelta: {x: 21.1724, y: 26.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1782961115
 MonoBehaviour:
@@ -20852,8 +20852,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7, y: -13.235}
-  m_SizeDelta: {x: 360.9349, y: 52.73}
+  m_AnchoredPosition: {x: -15.01001, y: -11.200012}
+  m_SizeDelta: {x: 229.713, y: 29.305}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1817391925
 MonoBehaviour:
@@ -20873,7 +20873,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 5
-  m_Spacing: 6
+  m_Spacing: 2
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -24694,7 +24694,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 72.573}
+  m_SizeDelta: {x: 21.1724, y: 26.5762}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2059192382
 MonoBehaviour:
