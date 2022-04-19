@@ -17,5 +17,10 @@ app.use("/user", userRouter);
 app.use("/game", userRouter);
 app.use("/graphs", userRouter);
 
+// Home
+app.get("/", function (req, res) {
+    res.render("pages/home");
+});
+
 // Listen
 app.listen(port, () => console.log(`Server on port ${port}`));
