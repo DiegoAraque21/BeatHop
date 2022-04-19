@@ -1,5 +1,3 @@
-grant all on i_am_uploading.* to ba7d177be6b432;
--- CREATE SCHEMA
 DROP SCHEMA IF EXISTS beathop;
 CREATE SCHEMA beathop DEFAULT CHARACTER SET utf8;
 USE beathop;
