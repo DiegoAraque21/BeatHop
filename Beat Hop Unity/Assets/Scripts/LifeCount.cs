@@ -11,13 +11,17 @@ public class LifeCount : MonoBehaviour
     public LevelScript LevelScript;
     public Image[] lives;
     public int livesRemaining;
+
+    int tries = 1;
     
     public void LoseLife(){
         livesRemaining--;
         lives[livesRemaining].enabled = false;
-
         // Lives are 0 === LOSE
         if(livesRemaining == 0){
+            {
+                PlayerPrefs.SetInt("tries", tries+1);
+            }
             GameOverScreen.Setup();
             Time.timeScale = 0f;
             AudioSource[] audios = FindObjectsOfType<AudioSource>();
@@ -42,7 +46,9 @@ public class LifeCount : MonoBehaviour
 
         if (col.gameObject.tag == "FinishLine"){
             LevelScript.Pass();
-            LevelCompletedScreen.Setup(livesRemaining);
+            tries = PlayerPrefs.GetInt("tries", tries);
+            LevelCompletedScreen.Setup(livesRemaining, PlayerPrefs.GetInt("tries"));
+            PlayerPrefs.SetInt("tries", 1);
             Time.timeScale = 0f;
             AudioSource[] audios = FindObjectsOfType<AudioSource>();
             foreach(AudioSource a in audios)

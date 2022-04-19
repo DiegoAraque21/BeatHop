@@ -9,9 +9,13 @@ public class LevelCompletedScreen : MonoBehaviour
     // Start is called before the first frame update
     public Text livesText;
 
-    public void Setup(int lives)
+    public void Setup(int lives, int tries)
     {   
-        livesText.text = "with " + lives.ToString() + " lives";
+        if(tries == 1){
+            livesText.text = "with " + lives.ToString() + " lives in " + tries.ToString() + " try";
+        } else{
+            livesText.text = "with " + lives.ToString() + " lives in " + tries.ToString() + " tries";
+        }
         gameObject.SetActive(true);
     }
 
