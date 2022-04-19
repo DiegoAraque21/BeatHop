@@ -45,6 +45,7 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void quitGame(){
+        PlayerPrefs.SetInt("tries", 1);
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main Menu");
     }
