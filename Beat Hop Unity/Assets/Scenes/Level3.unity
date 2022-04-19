@@ -2175,7 +2175,6 @@ MonoBehaviour:
   - {fileID: 667809280}
   - {fileID: 140451526}
   livesRemaining: 10
-  tries: 0
 --- !u!4 &172391067
 Transform:
   m_ObjectHideFlags: 0
@@ -2796,11 +2795,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203871192}
   m_CullTransparentMesh: 1
---- !u!224 &217496133 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2975768175325360689, guid: 18c168660936f4fcd99ad2a10574333c, type: 3}
-  m_PrefabInstance: {fileID: 2975768175537850484}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &223227607
 GameObject:
   m_ObjectHideFlags: 0
@@ -4065,37 +4059,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &377914550
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 377914551}
-  m_Layer: 0
-  m_Name: Grounds
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &377914551
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377914550}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 217496133}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &382057025
 GameObject:
   m_ObjectHideFlags: 0
@@ -19245,7 +19208,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 377914551}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2975768175325360688, guid: 18c168660936f4fcd99ad2a10574333c, type: 3}
       propertyPath: m_Name
@@ -19261,7 +19224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2975768175325360689, guid: 18c168660936f4fcd99ad2a10574333c, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2975768175325360689, guid: 18c168660936f4fcd99ad2a10574333c, type: 3}
       propertyPath: m_AnchorMax.x
