@@ -9,7 +9,7 @@ const connectToDB = () => {
       database: "heroku_48f0b55a01c5202",
     });
   } catch (error) {
-    console.log(error);
+    console.log("CONNECT TO DB ERROR:", error);
   }
 };
 
