@@ -1,6 +1,8 @@
 // Packages
 let express = require("express");
 let userRouter = require("./routes/userRoutes.js");
+let gameRouter = require("./routes/gameRoutes.js");
+let graphsRouter = require("./routes/graphsRoutes.js");
 let path = require("path");
 
 // Initialize app
@@ -18,16 +20,12 @@ app.use(express.json())
 
 // Routes
 app.use("/user", userRouter);
-app.use("/game", userRouter);
-app.use("/graphs", userRouter);
+app.use("/game", gameRouter);
+app.use("/graphs", graphsRouter);
 
 // Home
 app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, './views/home.html'));
-});
-
-app.get("/graphs", function (req, res) {
-    res.sendFile(path.join(__dirname, './views/graphs.html'));
 });
 
 // Listen
