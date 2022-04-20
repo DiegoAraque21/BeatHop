@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,11 +11,21 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../public/css/page_styles.css" />
-    <link rel="stylesheet" href="../public/css/createAccount.css" />
+    <link rel="stylesheet" href="/css/page_styles.css" />
+    <link rel="stylesheet" href="/css/createAccount.css"/>
     <title>Create Account</title>
   </head>
+
   <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-4" href="/">BeatHop</a>
+      </div>
+    </nav>
+
+    <!-- CONTAINER -->
     <div class="container">
       <h1 class="text-white text-center mb-4">Create Account</h1>
       <form class="row g-3">
@@ -48,12 +59,12 @@
           <div class="col">
             <label for="type" class="form-label text-white">Type</label>
             <select name="type" id="type" class="form-select">
-              <option selected>Choose...</option>
+              <option>Choose...</option>
               <option>Player</option>
               <option>Manager PAS</option>
             </select>
           </div>
-          <div class="col mx-4">
+          <div class="col mx-3">
             <label for="gender" class="form-label text-white">Gender</label>
             <select name="gender" id="gender" class="form-select">
               <option selected>Choose...</option>
@@ -64,7 +75,7 @@
           </div>
           <div class="col">
             <label for="age" class="form-label text-white">Age</label>
-            <input type="text" name="age" class="form-control" id="age" />
+            <input type="number" name="age" class="form-control" id="age" />
           </div>
         </div>
         <div class="col-md-12">
@@ -90,7 +101,7 @@
         </div>
         <div class="col-md-12">
           <label for="answer3" class="form-label text-white"
-            >Do you identify the tempo of all the notes?</label
+            >Can you identify all the different tempo notes?</label
           >
           <select name="answer3" id="answer3" class="form-select">
             <option selected>Choose...</option>
@@ -100,7 +111,7 @@
           </select>
         </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary w-100">Sign in</button>
+          <button type="submit" class="btn btn-primary w-100 mt-3 mb-5">Create Account</button>
         </div>
       </form>
     </div>

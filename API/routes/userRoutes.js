@@ -10,7 +10,9 @@ router.get("/login", function (req, res) {
 router.post("/login", function (req, res) {});
 
 // Create Account
-router.get("/create_account", function (req, res) {});
+router.get("/create_account", function (req, res) {
+  res.sendFile(path.join(__dirname, "../views/createAccount.html"));
+});
 router.post("/create_account", function (req, res) {});
 
 // New Form
