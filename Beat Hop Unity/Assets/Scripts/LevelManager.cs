@@ -25,6 +25,7 @@ public class LevelManager : MonoBehaviour
 
 public void LoadLevel(int levelIndex )
 {
+    PlayerPrefs.SetInt("tries", 1);
     SceneManager.LoadScene(levelIndex);
 }
 
