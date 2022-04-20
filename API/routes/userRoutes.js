@@ -17,9 +17,8 @@ router.post("/signup", function (req, res) {});
 // New Form
 router.get("/form", function (req, res) {});
 router.post("/form", function (req, res) {
-  let connection = connectToDB();
-
   try {
+    let connection = connectToDB();
     connection.connect();
     // const query = `INSERT INTO Form (answer1, answer2, answer3) VALUES (${req.body.answer1}, ${req.body.answer2}, ${req.body.answer3})`;
     const query = `INSERT INTO Form (answer1, answer2, answer3) VALUES ("A lot", "Yes", "No")`;
