@@ -8,8 +8,6 @@ const app = express();
 const port = 3000;
 
 // Configuration
-app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, './views'));
 app.use(express.static(path.join(__dirname, './public')))
 
 // Routes
@@ -19,7 +17,7 @@ app.use("/graphs", userRouter);
 
 // Home
 app.get("/", function (req, res) {
-    res.render("pages/home");
+    res.sendFile(path.join(__dirname, './views/home.html'));
 });
 
 // Listen
