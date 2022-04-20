@@ -20,5 +20,9 @@ app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, './views/home.html'));
 });
 
+app.get("/graphs", function (req, res) {
+    res.sendFile(path.join(__dirname, './views/graphs.html'));
+});
+
 // Listen
 app.listen(port, () => console.log(`Server on port ${port}`));
