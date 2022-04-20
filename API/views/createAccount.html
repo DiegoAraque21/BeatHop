@@ -48,11 +48,11 @@
     <div class="container">
       <form class="row g-3">
         <div class="col-md-6">
-          <label for="name" class="form-label">Name</label>
+          <label for="name" class="form-label text-white">Name</label>
           <input type="text" name="name" class="form-control" id="name" />
         </div>
         <div class="col-md-6">
-          <label for="lastName" class="form-label">Last Name</label>
+          <label for="lastName" class="form-label text-white">Last Name</label>
           <input
             type="text"
             name="lastName"
@@ -61,11 +61,11 @@
           />
         </div>
         <div class="col-md-6">
-          <label for="email" class="form-label">Email</label>
+          <label for="email" class="form-label text-white">Email</label>
           <input type="text" name="email" class="form-control" id="email" />
         </div>
         <div class="col-md-6">
-          <label for="password" class="form-label">Password</label>
+          <label for="password" class="form-label text-white">Password</label>
           <input
             type="text"
             name="password"
@@ -75,7 +75,7 @@
         </div>
         <div class="d-flex">
           <div class="col">
-            <label for="type" class="form-label">Type</label>
+            <label for="type" class="form-label text-white">Type</label>
             <select name="type" id="type" class="form-select">
               <option selected>Choose...</option>
               <option>Player</option>
@@ -83,7 +83,7 @@
             </select>
           </div>
           <div class="col mx-4">
-            <label for="gender" class="form-label">Gender</label>
+            <label for="gender" class="form-label text-white">Gender</label>
             <select name="gender" id="gender" class="form-select">
               <option selected>Choose...</option>
               <option>Male</option>
@@ -92,21 +92,41 @@
             </select>
           </div>
           <div class="col">
-            <label for="age" class="form-label">Age</label>
+            <label for="age" class="form-label text-white">Age</label>
             <input type="text" name="age" class="form-control" id="age" />
           </div>
         </div>
         <div class="col-md-12">
-          <label for="answer1" class="form-label">Question 1</label>
-          <input type="text" name="answer1" class="form-control" id="answer1" />
+          <label for="answer1" class="form-label text-white"
+            >Have you played any percussion Instrument?</label
+          >
+          <select name="answer1" id="answer1" class="form-select">
+            <option selected>Choose...</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
         </div>
         <div class="col-md-12">
-          <label for="answer2" class="form-label">Question 2</label>
-          <input type="text" name="answer2" class="form-control" id="answer2" />
+          <label for="answer2" class="form-label text-white"
+            >Can you identify musical notes?</label
+          >
+          <select name="answer2" id="answer2" class="form-select">
+            <option selected>Choose...</option>
+            <option>Yes</option>
+            <option>Some of them</option>
+            <option>No</option>
+          </select>
         </div>
         <div class="col-md-12">
-          <label for="answer3" class="form-label">Question 3</label>
-          <input type="text" name="answer3" class="form-control" id="answer3" />
+          <label for="answer3" class="form-label text-white"
+            >Do you identify the tempo of all the notes?</label
+          >
+          <select name="answer3" id="answer3" class="form-select">
+            <option selected>Choose...</option>
+            <option>Yes</option>
+            <option>Some of them</option>
+            <option>No</option>
+          </select>
         </div>
         <div class="col-12">
           <button type="submit" class="btn btn-primary w-100">Sign in</button>
