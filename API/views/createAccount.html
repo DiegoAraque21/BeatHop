@@ -21,7 +21,8 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand mx-4" href="/">BeatHop</a>
+        <a class="navbar-brand mx-4" href="#">BeatHop</a>
+        <button class="btn btn-sm btn-primary mx-4">Log In</button>
       </div>
     </nav>
 
@@ -29,6 +30,7 @@
     <div class="container">
       <h1 class="text-white text-center mb-4">Create Account</h1>
       <form class="row g-3">
+        <h4 class="text-white mb-1">Enter Data</h4>
         <div class="col-md-6">
           <label for="name" class="form-label text-white">Name</label>
           <input type="text" name="name" class="form-control" id="name" />
@@ -70,7 +72,7 @@
               <option selected>Choose...</option>
               <option>Male</option>
               <option>Female</option>
-              <option>Prefer not to say</option>
+              <option>Other</option>
             </select>
           </div>
           <div class="col">
@@ -78,9 +80,10 @@
             <input type="number" name="age" class="form-control" id="age" />
           </div>
         </div>
+        <h4 class="text-white mb-1 mt-5">Questions</h4>
         <div class="col-md-12">
           <label for="answer1" class="form-label text-white"
-            >Have you played any percussion Instrument?</label
+            >Have you played any percussion instrument?</label
           >
           <select name="answer1" id="answer1" class="form-select">
             <option selected>Choose...</option>
@@ -111,7 +114,7 @@
           </select>
         </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-primary w-100 mt-3 mb-5">Create Account</button>
+          <button type="submit" class="btn btn-primary w-100 mt-4 mb-5">Create Account</button>
         </div>
       </form>
     </div>
