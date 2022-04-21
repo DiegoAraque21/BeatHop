@@ -13,31 +13,58 @@ router.post("/login", function (req, res) {
     // Validate fields
     if (!req.body.email || !req.body.password)
       throw "You must complete all fields.";
+    
     // Make connection
     let connection = connectToDB();
     connection.connect();
 
-    connection.query(
-      `SELECT email, password FROM User WHERE (email = "${req.body.email}" AND password = "${req.body.password}")`,
-      function (error, results) {
-        console.log(results);
-        if (results.length === 0 || error) {
-          res
-            .status(500)
-            .json({
-              error: "Email doesn't exist or password is incorrect",
-              status: false,
-            });
-        } else {
-          res.status(200).json({ message: "Welcome back!", status: true });
-        }
+    // Create user query
+    let query = `SELECT idUser, email, password, userType FROM User WHERE (email = "${req.body.email}")`
+
+    // Execute query in DB
+    connection.query(query, function (error, results) {
+      
+      // If there is no email or there is an error
+      if (results.length === 0 || error) {
+        return res
+          .status(500)
+          .json({
+            error: "Email doesn't exist.",
+            status: false,
+          });
+      }
+
+      // Check if the password is correct
+      if (results[0].password !== req.body.password) {
+        return res
+          .status(500)
+          .json({
+            error: "The password is incorrect.",
+            status: false,
+          });
+      }
+      
+      // If everything is correct return user data
+      res
+        .status(200)
+        .json({
+          message: "Welcome back!",
+          status: true,
+          idUser: results[0].idUser,
+          email: results[0].email,
+          userType: results[0].userType
+        });
       }
     );
+
     // End connection
     connection.end();
-  } catch (error) {
-    console.log(error);
-    // res.status(500).json({ error: error, status: false });
+  }
+  
+  // Manage error
+  catch (error) {
+    console.log("LOGIN ERROR:", error);
+    res.status(500).json({ error: "There was an error with the log in, please try again.", status: false });
   }
 });
 
@@ -54,7 +81,7 @@ router.post("/create_account", function (req, res) {
       !req.body.lastName ||
       !req.body.email ||
       !req.body.password ||
-      !req.body.type ||
+      !req.body.userType ||
       !req.body.gender ||
       !req.body.age ||
       !req.body.idForm
@@ -67,9 +94,7 @@ router.post("/create_account", function (req, res) {
 
     // Create user query
     let userQuery = `INSERT INTO User (name, lastName, email, password, userType, age, gender, idForm) VALUES 
-    ("${req.body.name}", "${req.body.lastName}", "${req.body.email}", "${req.body.password}", "${req.body.type}", ${req.body.age}, "${req.body.gender}", ${req.body.idForm})`;
-
-    console.log(userQuery);
+    ("${req.body.name}", "${req.body.lastName}", "${req.body.email}", "${req.body.password}", "${req.body.userType}", ${req.body.age}, "${req.body.gender}", ${req.body.idForm})`;
 
     // Execute from query in DB
     connection.query(userQuery, (error, results) => {
@@ -79,7 +104,7 @@ router.post("/create_account", function (req, res) {
       // Response
       res.status(200).json({
         message: "User created successfully.",
-        userId: results.insertId,
+        idUser: results.insertId,
       });
     });
 
@@ -109,7 +134,7 @@ router.post("/form", function (req, res) {
     let formQuery = `INSERT INTO Form (answer1, answer2, answer3) VALUES 
     ("${req.body.answer1}", "${req.body.answer2}", "${req.body.answer3}")`;
 
-    // Execute from query in DB
+    // Execute query in DB
     connection.query(formQuery, (error, results) => {
       // If error creating form
       if (error) throw "There was an error with the creation of the form.";
@@ -123,9 +148,11 @@ router.post("/form", function (req, res) {
 
     // End connection
     connection.end();
-  } catch (error) {
-    // Manage error
-    console.log("INSERT USER ERROR:", error);
+  }
+  
+  // Manage error
+  catch (error) {
+    console.log("INSERT FORM ERROR:", error);
     res.status(500).json({ error });
   }
 });

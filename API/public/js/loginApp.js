@@ -14,21 +14,27 @@ async function logIn() {
     if (!email.trim() || !email) throw "Please enter a valid email.";
     if (!password.trim() || !password) throw "Please enter a valid password.";
 
-    // Create form
+    // Try to log in
     let resLogInDB = await fetch("http://localhost:3000/user/login", {
       method: "POST",
       body: JSON.stringify({ email, password }),
       headers: { "Content-Type": "application/json" },
     });
     const resLogIn = await resLogInDB.json();
-    // Send request
-    if (!resLogIn.status) {
-      alert(resLogIn.error);
-    } else {
-      alert(resLogIn.message);
-      window.location.href = "/";
-    }
-  } catch (error) {
+
+    // If log in failed
+    if (!resLogIn.status) throw resLogIn.error;
+
+    // Save user data in local storage
+    const userLocalData = { idUser: resLogIn.idUser, email: resLogIn.email, userType: resLogIn.userType };
+    localStorage.setItem('beathopUser', JSON.stringify( userLocalData ));
+
+    // Redirect to home
+    alert(resLogIn.message);
+    window.location.href = "/";
+
+  }
+  catch (error) {
     console.log("LOGIN ERROR:", error);
     alert(error);
   }
