@@ -2183,7 +2183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172391065}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2, y: -3.53, z: 0}
+  m_LocalPosition: {x: -7.2, y: -3.72, z: 0}
   m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_Children:
   - {fileID: 1009053355}
@@ -2207,7 +2207,7 @@ MonoBehaviour:
   moveSpeed: 4
   jumpForce: 7
   feetPos: {fileID: 1009053355}
-  checkRadius: 0.2
+  checkRadius: 0.01
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
@@ -6503,7 +6503,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645844942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3196497, y: -0.43840003, z: -10}
+  m_LocalPosition: {x: -1.3196497, y: -0.73, z: -10}
   m_LocalScale: {x: 0.23294, y: 0.23294, z: 0.23294}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7302,7 +7302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686282190}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1669, y: 0.3016, z: 0}
+  m_LocalPosition: {x: 0.1669, y: 0.2, z: 0}
   m_LocalScale: {x: 0.22568329, y: 0.33155066, z: 0.23173}
   m_Children: []
   m_Father: {fileID: 172391067}
@@ -7366,7 +7366,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: 6a9100576763e42f9bbdce7d5715f348, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11096,7 +11096,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189059860}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3196497, y: -0.43840003, z: -10}
+  m_LocalPosition: {x: -1.3196497, y: -0.73, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1185807406}
@@ -19400,6 +19400,10 @@ PrefabInstance:
     - target: {fileID: 2975768175325360689, guid: 18c168660936f4fcd99ad2a10574333c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2975768175325360690, guid: 18c168660936f4fcd99ad2a10574333c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2975768175325360691, guid: 18c168660936f4fcd99ad2a10574333c, type: 3}
       propertyPath: m_Material

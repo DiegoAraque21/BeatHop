@@ -1667,7 +1667,7 @@ MonoBehaviour:
   moveSpeed: 4
   jumpForce: 7
   feetPos: {fileID: 1009053355}
-  checkRadius: 0.2
+  checkRadius: 0.01
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
