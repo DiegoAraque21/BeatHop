@@ -4,7 +4,7 @@ function goToCreateAccount() {
 }
 
 // Log In
-async function LogIn() {
+async function logIn() {
     try {
         // Get values
         const email = document.getElementById("email").value;
