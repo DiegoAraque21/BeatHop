@@ -116,36 +116,36 @@ Each level will have a different background, that will be somehow related to the
    1. Mood
       Chill, easy, calm
    2. Music
-      Slow music to teach game rules and the basics of music tempo
+      Normal tempo
    3. Character
-      Basic Joe
+      Girl Ninja
    4. Background
       <br>
-      <img src="./Images/backgrounds/sunsetBg.jpg" width="400">
+      <img src="./Images/backgrounds/cityLevel.png" width="400">
       <br>
-2. Future
+2. Wild lands
 
    1. Mood
       Challenging, exciting
    2. Music
-      The music is going to be faster, more tempo obstacles will come.
+      The music is slower, kind of a tutorial
    3. Character
-      Punk Bill
+      Dinosaur
    4. Background
       <br>
-      <img src="./Images/backgrounds/futureBg.png" width="400">
+      <img src="./Images/backgrounds/dinosaurLevel.png" width="400">
       <br>
 
-3. Mars
+3. Snowy Lands
    1. Mood
       Challenging, exciting, hard
    2. Music
       This last level will have the fastest music with a lot of tempo obstacles.
    3. Character
-      Disco Joe
+      Ninja
    4. Background
       <br>
-      <img src="./Images/backgrounds/marsBg.png" width="400">
+      <img src="./Images/backgrounds/snowLevel.png" width="400">
       <br>
 
 ### _Game Flow_
