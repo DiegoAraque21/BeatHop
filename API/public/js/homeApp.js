@@ -1,6 +1,6 @@
 // Check if user is logged in
 function checkUserLoggedIn() {
-    saveUser();
+    deleteUser()
     // Get the local user
     const localUser = JSON.parse(localStorage.getItem('beathopUser'));
     // If there is no user redirect to login

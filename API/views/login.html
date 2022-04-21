@@ -16,6 +16,9 @@
     />
     <link rel="stylesheet" href="/css/login.css" />
 
+    <!-- Scripts -->
+    <script src="/js/loginApp.js"></script>
+
     <title>Log In</title>
   </head>
 
@@ -26,13 +29,13 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand mx-4" href="#">BeatHop</a>
-        <button class="btn btn-sm btn-primary mx-4">Create Account</button>
+        <button class="btn btn-sm btn-primary mx-4" onclick="goToCreateAccount()">Create Account</button>
       </div>
     </nav>
 
     <!-- CONTAINER -->
     <div class="container">
-      <div class="inner_container">
+      <form class="inner_container">
 
         <!-- TITLE -->
         <h1 class="text-white text-center mb-3">Log In</h1>
@@ -40,7 +43,7 @@
         <!-- EMAIL -->
         <div class="col-md-12">
           <label for="email" class="form-label text-white">Email</label>
-          <input type="text" name="email" class="form-control" id="email" />
+          <input type="text" name="email" class="form-control" id="email"/>
         </div>
 
         <!-- PASSWORD -->
@@ -56,10 +59,10 @@
 
         <!-- BUTTON -->
         <div class="col-md-12 mt-5">
-          <button type="submit" class="btn btn-primary w-100">Log In</button>
+          <button type="button" class="btn btn-primary w-100" onclick="LogIn()">Log In</button>
         </div>
 
-      </div>
+      </form>
     </div>
   </body>
 </html>
