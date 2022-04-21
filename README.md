@@ -190,11 +190,11 @@ The main colors that we will be using are purple, yellow, orange, red, blue and 
 <br>
 <img src="./Images/assets/palettes/colorPaletteCityLevel.png" width="250">
 <br>
-"Mars"
+"Wild Lands"
 <br>
 <img src="./Images/assets/palettes/colorPaletteDinosaurLevel.png" width="250">
 <br>
-"The City"
+"Snowy Lands"
 <br>
 <img src="./Images/assets/palettes/colorPaletteSnowyLands.png" width="250">
 <br>
