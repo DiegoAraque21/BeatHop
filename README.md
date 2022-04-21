@@ -98,9 +98,9 @@ Depending on how many lives the player has after completing the level, the perce
 There are 3 different characters (one for each level), their objective is to reach the finish line using their knowledge in music and percussion.
 
 <p align="center">
-<img src="./Images/characters/basicJim.png" width="100">
-<img src="./Images/characters/discoStew.png" width="80">
-<img src="./Images/characters/punkBill.png" width="100">
+<img src="./Images/characters/ninja2.png" width="80">
+<img src="./Images/characters/ninja.png" width="100">
+<img src="./Images/characters/dinosaur.png" width="180">
 
 ##### Background
 
@@ -116,36 +116,36 @@ Each level will have a different background, that will be somehow related to the
    1. Mood
       Chill, easy, calm
    2. Music
-      Slow music to teach game rules and the basics of music tempo
+      Normal tempo
    3. Character
-      Basic Joe
+      Girl Ninja
    4. Background
       <br>
-      <img src="./Images/backgrounds/sunsetBg.jpg" width="400">
+      <img src="./Images/backgrounds/cityLevel.png" width="400">
       <br>
-2. Future
+2. Wild lands
 
    1. Mood
       Challenging, exciting
    2. Music
-      The music is going to be faster, more tempo obstacles will come.
+      The music is slower, kind of a tutorial
    3. Character
-      Punk Bill
+      Dinosaur
    4. Background
       <br>
-      <img src="./Images/backgrounds/futureBg.png" width="400">
+      <img src="./Images/backgrounds/dinosaurLevel.png" width="400">
       <br>
 
-3. Mars
+3. Snowy Lands
    1. Mood
       Challenging, exciting, hard
    2. Music
       This last level will have the fastest music with a lot of tempo obstacles.
    3. Character
-      Disco Joe
+      Ninja
    4. Background
       <br>
-      <img src="./Images/backgrounds/marsBg.png" width="400">
+      <img src="./Images/backgrounds/snowLevel.png" width="400">
       <br>
 
 ### _Game Flow_
@@ -155,7 +155,7 @@ Three levels will be developed. Once a level is completed, another level and cha
 ##### Flow:
 
 1. The player starts moving while some music is playing.
-2. As the background changes, the player will encounter multiple objects with a musical tempo note inside that the player will need to jump. The type of the jump will depend on the note.  If the player touches an obstacle he will loose a life, on the other hand, if he only has 1 life he will have to restart the level.
+2. As the background changes, the player will encounter multiple objects with a musical tempo note inside that the player will need to jump. The type of the jump will depend on the note. If the player touches an obstacle he will loose a life, on the other hand, if he only has 1 life he will have to restart the level.
 3. If the player reaches the end with one or more lives, he wins and unlockes the next character and level, if he hasn't unlocked all of them already.
 
 ## Development
@@ -186,21 +186,17 @@ The main colors that we will be using are purple, yellow, orange, red, blue and 
 
 <p align="center"
 
-"Future"
-<br>
-<img src="./Images/assets/pallete2.png" width="250">
-<br>
-"Mars"
-<br>
-<img src="./Images/assets/pallete3.png" width="250">
-<br>
 "The City"
 <br>
-<img src="./Images/assets/pallete4.png" width="250">
+<img src="./Images/assets/palettes/colorPaletteCityLevel.png" width="250">
 <br>
-General Colors
+"Wild Lands"
 <br>
-<img src="./Images/assets/pallete.png" width="400">
+<img src="./Images/assets/palettes/colorPaletteDinosaurLevel.png" width="250">
+<br>
+"Snowy Lands"
+<br>
+<img src="./Images/assets/palettes/colorPaletteSnowyLands.png" width="250">
 <br>
 
 >
@@ -226,11 +222,6 @@ We will have visual feedback in the form of colors, every time the character get
    7. Quarter rest (1 beat silence)
    8. Eighth rest (1/2 beat silence)
    9. Spike
-      <br>
-      <b>Block Example</b>
-      <br>
-      <img src="./Images/assets/obstacle1.png" width = "100">
-      <br>
 3. Ambient
    1. Buildings
    2. Bridges

@@ -3,14 +3,43 @@ let router = express.Router();
 let path = require("path");
 let connectToDB = require("../db");
 
-
 // Log In
 router.get("/login", function (req, res) {
   res.sendFile(path.join(__dirname, "../views/login.html"));
 });
 
-router.post("/login", function (req, res) {});
+router.post("/login", function (req, res) {
+  try {
+    // Validate fields
+    if (!req.body.email || !req.body.password)
+      throw "You must complete all fields.";
+    // Make connection
+    let connection = connectToDB();
+    connection.connect();
 
+    connection.query(
+      `SELECT email, password FROM User WHERE (email = "${req.body.email}" AND password = "${req.body.password}")`,
+      function (error, results) {
+        console.log(results);
+        if (results.length === 0 || error) {
+          res
+            .status(500)
+            .json({
+              error: "Email doesn't exist or password is incorrect",
+              status: false,
+            });
+        } else {
+          res.status(200).json({ message: "Welcome back!", status: true });
+        }
+      }
+    );
+    // End connection
+    connection.end();
+  } catch (error) {
+    console.log(error);
+    // res.status(500).json({ error: error, status: false });
+  }
+});
 
 // Create Account
 router.get("/create_account", function (req, res) {
@@ -20,8 +49,16 @@ router.get("/create_account", function (req, res) {
 router.post("/create_account", function (req, res) {
   try {
     // Validate fields
-    if (!req.body.name || !req.body.lastName || !req.body.email || !req.body.password ||
-       !req.body.type || !req.body.gender || !req.body.age || !req.body.idForm)
+    if (
+      !req.body.name ||
+      !req.body.lastName ||
+      !req.body.email ||
+      !req.body.password ||
+      !req.body.type ||
+      !req.body.gender ||
+      !req.body.age ||
+      !req.body.idForm
+    )
       throw "You must complete all fields.";
 
     // Make connection
@@ -36,13 +73,14 @@ router.post("/create_account", function (req, res) {
 
     // Execute from query in DB
     connection.query(userQuery, (error, results) => {
-
       // If error creating user
-      if (error) throw "There was an error with the creation of the user."; 
-      
-      // Response
-      res.status(200).json({ message: "User created successfully.", userId: results.insertId });
+      if (error) throw "There was an error with the creation of the user.";
 
+      // Response
+      res.status(200).json({
+        message: "User created successfully.",
+        userId: results.insertId,
+      });
     });
 
     // End connection
@@ -60,7 +98,8 @@ router.post("/create_account", function (req, res) {
 router.post("/form", function (req, res) {
   try {
     // Validate fields
-    if (!req.body.answer1 || !req.body.answer2 || !req.body.answer3) throw "You must complete all fields.";
+    if (!req.body.answer1 || !req.body.answer2 || !req.body.answer3)
+      throw "You must complete all fields.";
 
     // Make connection
     let connection = connectToDB();
@@ -72,21 +111,20 @@ router.post("/form", function (req, res) {
 
     // Execute from query in DB
     connection.query(formQuery, (error, results) => {
-      
       // If error creating form
       if (error) throw "There was an error with the creation of the form.";
 
       // Response
-      res.status(200).json({ message: "Form created successfully.", formId: results.insertId});
-
+      res.status(200).json({
+        message: "Form created successfully.",
+        formId: results.insertId,
+      });
     });
-    
+
     // End connection
     connection.end();
-  }
-
-  // Manage error
-  catch (error) {
+  } catch (error) {
+    // Manage error
     console.log("INSERT USER ERROR:", error);
     res.status(500).json({ error });
   }
