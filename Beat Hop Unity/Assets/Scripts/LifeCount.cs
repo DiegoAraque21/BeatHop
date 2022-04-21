@@ -20,7 +20,7 @@ public class LifeCount : MonoBehaviour
         // Lives are 0 === LOSE
         if(livesRemaining == 0){
             {
-                PlayerPrefs.SetInt("tries", tries + 1);
+                PlayerPrefs.SetInt("tries", PlayerPrefs.GetInt("tries") + 1);
             }
             GameOverScreen.Setup();
             Time.timeScale = 0f;

@@ -14,7 +14,7 @@ public class LevelScript : MonoBehaviour
     }
 
     //Line for blocking the levels again
-    //PlayerPrefs.SetInt("levelsUnlocked",1);
+    PlayerPrefs.SetInt("levelsUnlocked",1);
     
      Debug.Log("LEVEL " + PlayerPrefs.GetInt("levelsUnlocked")+" UNLOCKED");
     }
