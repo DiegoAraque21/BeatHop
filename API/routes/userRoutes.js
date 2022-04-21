@@ -48,7 +48,7 @@ router.post("/create_account", function (req, res) {
     // End connection
     connection.end();
   }
-
+  
   // Manage error
   catch (error) {
     console.log("INSERT USER ERROR:", error);

@@ -38,6 +38,9 @@ async function createAccount() {
         });
         const resForm = await resFormDB.json();
 
+        // Check if there was an error
+        if (resForm.error) throw resForm.error;
+
         // Create user
         const resUserDB = await fetch('http://localhost:3000/user/create_account', {
             method: 'POST',
@@ -55,7 +58,18 @@ async function createAccount() {
         });
         const resUser = await resUserDB.json();
 
+        // Check if there was an error
+        if (resUser.error) throw resUser.error;
+
         console.log("User Res:", resUser);
+
+        // Save user data in local storage
+        const userLocalData = { userId: resUser.userId, email }
+        localStorage.setItem('beathopUser', JSON.stringify( userLocalData ));
+
+        // Redirect to home
+        window.location.href = "/";
+
     }
     catch (error) {
         console.log("CREATE ACCOUNT ERROR:", error);
