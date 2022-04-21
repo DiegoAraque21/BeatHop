@@ -30,9 +30,32 @@ async function createAccount() {
         if (!answer2.trim() || !answer2) throw "Please enter a valid answer for question 2."
         if (!answer3.trim() || !answer3) throw "Please enter a valid answer for question 3."
 
-        // Send request
-        const data = { name, lastName, email, password, type, gender, age, answer1, answer2, answer3}
-        console.log("CREATE ACCOUNT", data);
+        // Create form
+        let resFormDB = await fetch('http://localhost:3000/user/form', {
+            method: 'POST',
+            body: JSON.stringify({ answer1, answer2, answer3 }),
+            headers: { 'Content-Type': 'application/json' }
+        });
+        const resForm = await resFormDB.json();
+
+        // Create user
+        const resUserDB = await fetch('http://localhost:3000/user/create_account', {
+            method: 'POST',
+            body: JSON.stringify({
+                name,
+                lastName,
+                email,
+                password,
+                type,
+                age,
+                gender,
+                idForm: resForm.formId
+             }),
+            headers: { 'Content-Type': 'application/json' }
+        });
+        const resUser = await resUserDB.json();
+
+        console.log("User Res:", resUser);
     }
     catch (error) {
         console.log("CREATE ACCOUNT ERROR:", error);
