@@ -30,7 +30,6 @@ async function logIn() {
     localStorage.setItem('beathopUser', JSON.stringify( userLocalData ));
 
     // Redirect to home
-    alert(resLogIn.message);
     window.location.href = "/";
 
   }
