@@ -186,21 +186,17 @@ The main colors that we will be using are purple, yellow, orange, red, blue and 
 
 <p align="center"
 
-"Future"
+"The City"
 <br>
-<img src="./Images/assets/pallete2.png" width="250">
+<img src="./Images/assets/palettes/colorPaletteCityLevel.png" width="250">
 <br>
 "Mars"
 <br>
-<img src="./Images/assets/pallete3.png" width="250">
+<img src="./Images/assets/palettes/colorPaletteDinosaurLevel.png" width="250">
 <br>
 "The City"
 <br>
-<img src="./Images/assets/pallete4.png" width="250">
-<br>
-General Colors
-<br>
-<img src="./Images/assets/pallete.png" width="400">
+<img src="./Images/assets/palettes/colorPaletteSnowyLands.png" width="250">
 <br>
 
 >
