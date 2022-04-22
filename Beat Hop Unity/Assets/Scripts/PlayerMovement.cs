@@ -57,24 +57,30 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = Vector2.up * jumpForce;
         }
  
-        if (Input.GetButton("Jump") && isJumping == true)
-        {   
+        // if (Input.GetButton("Jump") && isJumping == true)
+        // {   
             
-            if (jumpTime > 0)
-            {
-                rb.velocity = Vector2.up * jumpForce;
-                jumpTime -= Time.deltaTime;
-            }
-            else
-            {
-                isJumping = false;
-                animator.SetBool("isJumping", false);
-            }
-        }
+        //     if (jumpTime > 0)
+        //     {
+        //         rb.velocity = Vector2.up * jumpForce;
+        //         jumpTime -= Time.deltaTime;
+        //     }
+        //     else
+        //     {
+        //         isJumping = false;
+        //         animator.SetBool("isJumping", false);
+        //     }
+        // }
  
         if (Input.GetButtonUp("Jump"))
         {   
+            Vector3 vel = rb.velocity;
+            vel.y /=2;
+            rb.velocity = vel;
             isJumping = false;
+        }
+        if (!isJumping && isGrounded)
+        {   
             animator.SetBool("isJumping", false);
         }
     }
@@ -86,6 +92,3 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.DrawWireSphere(feetPos.position, checkRadius);
     }
 }
-  
-  
-  

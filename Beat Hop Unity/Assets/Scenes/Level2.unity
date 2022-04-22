@@ -1663,7 +1663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   moveSpeed: 4
-  jumpForce: 7
+  jumpForce: 16
   feetPos: {fileID: 1009053355}
   checkRadius: 0.01
   whatIsGround:
