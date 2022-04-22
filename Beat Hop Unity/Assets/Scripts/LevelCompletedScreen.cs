@@ -1,3 +1,6 @@
+//Beat Hop Team
+//LevelCompleted Screen functionality
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

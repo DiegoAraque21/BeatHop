@@ -1,3 +1,6 @@
+//Beat Hop Team
+//Player jump mechanics
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

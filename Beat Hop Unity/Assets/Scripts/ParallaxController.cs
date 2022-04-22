@@ -1,3 +1,5 @@
+//Paralax controller
+
 /*
 Replicate the background images and move them as the camera moves
 Also add parallax effect to multiple background layers

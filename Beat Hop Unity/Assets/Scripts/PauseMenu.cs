@@ -1,3 +1,6 @@
+//Beat Hop Team
+//Pause Menu functionality script
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

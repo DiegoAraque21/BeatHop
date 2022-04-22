@@ -1,3 +1,6 @@
+//Beat Hop Team
+//Script for managing levels
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

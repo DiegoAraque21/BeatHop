@@ -1,3 +1,6 @@
+//Beat Hop Team
+//Game Over Scene funcionality
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

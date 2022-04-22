@@ -1,3 +1,6 @@
+//Beat Hop Team
+//Script for managing player lifes and other related funcitonalities
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

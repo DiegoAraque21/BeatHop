@@ -1,3 +1,6 @@
+//Beat Hop Team
+//Script to Control Camera
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

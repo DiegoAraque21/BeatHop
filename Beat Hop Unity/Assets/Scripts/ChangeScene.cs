@@ -1,3 +1,6 @@
+//Beat Hop Team
+//Script for changing scenes
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
