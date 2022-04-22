@@ -11,6 +11,7 @@ public class LifeCount : MonoBehaviour
     public LevelScript LevelScript;
     public Image[] lives;
     public int livesRemaining;
+    public GameObject m_GotHitScreen;
 
     int tries = 1;
     
@@ -39,9 +40,18 @@ public class LifeCount : MonoBehaviour
             LoseLife();
         }
     }
+
+    void gotHurt(){
+        var color = m_GotHitScreen.GetComponent<Image>().color;
+        color.a = 0.3f;
+
+        m_GotHitScreen.GetComponent<Image>().color = color;
+    }
+
      void OnTriggerEnter2D(Collider2D col) {
         if (col.gameObject.tag == "Obstacle"){
             LoseLife();
+            gotHurt();
         }
 
         if (col.gameObject.tag == "FinishLine"){
@@ -58,6 +68,15 @@ public class LifeCount : MonoBehaviour
         }
      }
 
+    void Update(){
+        if(m_GotHitScreen != null){
+            if(m_GotHitScreen.GetComponent<Image>().color.a > 0){
+                var color = m_GotHitScreen.GetComponent<Image>().color;
+                color.a -= 0.01f;
+                m_GotHitScreen.GetComponent<Image>().color = color;
+            }
+        }
+    }
     // void OnTriggerEnter2D(Collider2D col) {
       
     // }
