@@ -48,10 +48,10 @@ INSERT INTO User (name, lastName, email, password, userType, age, gender, idForm
 ("Diego", "Altamirano", "diegoalt@gmail.com", "4324234", "admin", 34, "F", 20);
 
 -- INSERT LEVEL
-INSERT INTO Level (levelName, avgScore, totalDeaths, totalTries) VALUES
-("City", 85.7, 141, 345),
-("Mars", 70.2, 236, 346),
-("Night", 81.6, 192, 283);
+INSERT INTO Level (levelName, avgScore, totalDeaths, totalTries, amountGameRuns) VALUES
+("City", 85.7, 141, 345, 112),
+("Mars", 70.2, 236, 346, 112),
+("Night", 81.6, 192, 283, 112);
 
 -- INSERT GAMERUN
 INSERT INTO GameRun (idUser, idLevel, score, deaths, tries) VALUES

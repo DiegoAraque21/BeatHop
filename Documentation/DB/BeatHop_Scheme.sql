@@ -31,6 +31,7 @@ CREATE TABLE Level (
      avgScore FLOAT NOT NULL,
      totalDeaths INT NOT NULL,
      totalTries INT NOT NULL,
+     amountGameRuns INT NOT NULL,
      PRIMARY KEY (idLevel)
 );
 
