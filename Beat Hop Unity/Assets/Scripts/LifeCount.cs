@@ -55,7 +55,7 @@ public class LifeCount : MonoBehaviour
         }
 
         if (col.gameObject.tag == "FinishLine"){
-            LevelScript.Pass();
+            // LevelScript.Pass();
             tries = PlayerPrefs.GetInt("tries", tries);
             LevelCompletedScreen.Setup(livesRemaining, PlayerPrefs.GetInt("tries"));
             PlayerPrefs.SetInt("tries", 1);
