@@ -1,5 +1,7 @@
 //Beat Hop Team
 //Script for managing a level
+//This script isnt useful anymore, therefore it is not commented
+
 
 using System.Collections;
 using System.Collections.Generic;

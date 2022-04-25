@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour
 
    public Button[] buttons;
 
+
+    //Start method no longer useful
     void Start()
     {
         levelsUnlocked = PlayerPrefs.GetInt("levelsUnlocked",1);
@@ -26,6 +28,7 @@ public class LevelManager : MonoBehaviour
         
     }
 
+//Go to selected level
 public void LoadLevel(int levelIndex )
 {
     //PlayerPrefs.SetInt("tries", 1);

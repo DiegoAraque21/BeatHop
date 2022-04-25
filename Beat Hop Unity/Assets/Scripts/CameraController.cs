@@ -1,5 +1,6 @@
 //Beat Hop Team
 //Script to Control Camera
+//Is no longer used (replaced by Unity extension)
 
 using System.Collections;
 using System.Collections.Generic;
