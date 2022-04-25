@@ -5,7 +5,7 @@ let myChart = new Chart(game1, {
     data: {
         labels: ['Level 1', 'Level 2', 'Level 3'],
         datasets: [{
-            label: 'Data of every played level',
+            label: 'Average Score',
             data: [10, 9, 15],
             backgroundColor: [
                 'rgb(74, 135, 72,0.5)',
@@ -37,7 +37,7 @@ let myChart2 = new Chart(game2, {
     data: {
         labels: ['Level 1', 'Level 2', 'Level 3'],
         datasets: [{
-            label: 'Data of every played level',
+            label: 'Total Deaths',
             data: [10, 9, 15],
             backgroundColor: [
                 'rgb(229, 89, 50,0.5)',
@@ -69,7 +69,7 @@ let myChart3 = new Chart(game3, {
     data: {
         labels: ['Level 1', 'Level 2', 'Level 3'],
         datasets: [{
-            label: 'Data of every played level',
+            label: 'Total Tries',
             data: [10, 9, 15],
             backgroundColor: [
                 'rgb(66, 134, 244,0.5)',
