@@ -4,6 +4,10 @@
     width: 800px;
     margin-bottom: 80px;
 }
+.graphs_title{
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
 .graph_canvas{
-    margin-top: 40px;
+    margin-bottom: 60px;
 }
