@@ -1,5 +1,5 @@
 //Beat Hop Team
-//Script for managing player lifes and other related funcitonalities
+//Script for managing player lifes and other related functionalities
 
 using System.Collections;
 using System.Collections.Generic;
@@ -18,6 +18,7 @@ public class LifeCount : MonoBehaviour
 
     int tries = 1;
     
+    //Method that handles all evenets related to the player losing a life
     public void LoseLife(){
         livesRemaining--;
         lives[livesRemaining].enabled = false;
@@ -37,13 +38,14 @@ public class LifeCount : MonoBehaviour
         }
     }
 
-
+    //Method that triggers Loose Life method on colission
     void OnCollisionEnter2D(Collision2D col){
         if (col.gameObject.tag == "Obstacle"){
             LoseLife();
         }
     }
 
+    //Method for showing players damage
     void gotHurt(){
         var color = m_GotHitScreen.GetComponent<Image>().color;
         color.a = 0.3f;
@@ -51,6 +53,8 @@ public class LifeCount : MonoBehaviour
         m_GotHitScreen.GetComponent<Image>().color = color;
     }
 
+    //Method that triggers Loose Life method on colission and triggers level completed 
+    //screen when the level is completed
      void OnTriggerEnter2D(Collider2D col) {
         if (col.gameObject.tag == "Obstacle"){
             LoseLife();
@@ -71,6 +75,8 @@ public class LifeCount : MonoBehaviour
         }
      }
 
+
+    //Update game in function of its events
     void Update(){
         if(m_GotHitScreen != null){
             if(m_GotHitScreen.GetComponent<Image>().color.a > 0){

@@ -27,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
  
  
     // Start is called before the first frame update
+
+    //Save game components into variables
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -34,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
     }
  
     // Update is called once per frame
+
+    //Call Jump method on update
     void Update()
     {   
         
@@ -42,12 +46,16 @@ public class PlayerMovement : MonoBehaviour
         // rotationVector.z = 0;
         // transform.rotation = Quaternion.Euler(rotationVector);
     }
- 
+    
+
+    //Make player move to the right
     void FixedUpdate()
     {
         rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
     }
- 
+    
+
+    //Player's jump mechanics
     void Jump()
     {
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
@@ -59,21 +67,6 @@ public class PlayerMovement : MonoBehaviour
             jumpTime = jumpStartTime;
             rb.velocity = Vector2.up * jumpForce;
         }
- 
-        // if (Input.GetButton("Jump") && isJumping == true)
-        // {   
-            
-        //     if (jumpTime > 0)
-        //     {
-        //         rb.velocity = Vector2.up * jumpForce;
-        //         jumpTime -= Time.deltaTime;
-        //     }
-        //     else
-        //     {
-        //         isJumping = false;
-        //         animator.SetBool("isJumping", false);
-        //     }
-        // }
  
         if (Input.GetButtonUp("Jump"))
         {   
@@ -89,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
     }
  
     
- 
+    //Function for checking if the player is touching the ground
     void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(feetPos.position, checkRadius);
