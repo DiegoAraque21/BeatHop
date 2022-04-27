@@ -176,6 +176,8 @@ router.put("/level", function (req, res) {
         //             amountGameRuns = ${req.body.amountGameRuns}
         //             WHERE idLevel = ${req.body.idLevel}`;
 
+        
+
         let query = `UPDATE level SET
                     avgScore = (avgScore + ${req.body.score}) / (amountGameRuns + 1),
                     totalDeaths = totalDeaths + ${req.body.deaths},
@@ -183,6 +185,8 @@ router.put("/level", function (req, res) {
                     amountGameRuns = amountGameRuns + 1
                     WHERE idlevel = ${req.body.idLevel}`
 
+        console.log(req.body)
+        console.log(query);
         // Execute query in DB
         connection.query(query, function (error, results) {
         
