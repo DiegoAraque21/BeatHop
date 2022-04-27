@@ -1,5 +1,6 @@
 let mysql = require("mysql");
 
+// Connection to heroku
 const connectToDB = () => {
   try {
     return mysql.createConnection({
@@ -9,6 +10,7 @@ const connectToDB = () => {
       database: "heroku_48f0b55a01c5202",
     });
   } catch (error) {
+    // error message, if the connection couldn't be done
     console.log("CONNECT TO DB ERROR:", error);
   }
 };
