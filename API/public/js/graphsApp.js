@@ -1,3 +1,5 @@
+// --- BEFORE RENDERING ---
+
 // Check if user is logged in and user is manager
 function checkUserLoggedIn() {
     // Get the local user
@@ -12,6 +14,9 @@ function checkUserLoggedIn() {
 
 // Before render the page check if there is a user logged in
 checkUserLoggedIn();
+
+
+// --- AFTER RENDERING ---
 
 // Close session
 function closeSession() {
