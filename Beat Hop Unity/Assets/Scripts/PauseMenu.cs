@@ -56,7 +56,8 @@ public class PauseMenu : MonoBehaviour
 
     //Method for quitting the game (go to main menu)
     public void quitGame(){
-        PlayerPrefs.SetInt("tries", 1);
+        string key = "tries" + PlayerPrefs.GetInt("userId");
+        PlayerPrefs.SetInt(key, 1);
         Time.timeScale = 1f;
         SceneManager.LoadScene("Main Menu");
     }

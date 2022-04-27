@@ -45,14 +45,15 @@ public class LifeCount : MonoBehaviour
 
     int tries = 1;
     
-    //Method that handles all evenets related to the player losing a life
+    //Method that handles all events related to the player losing a life
     public void LoseLife(){
         livesRemaining--;
         lives[livesRemaining].enabled = false;
         // Lives are 0 === LOSE
         if(livesRemaining == 0){
             {
-                PlayerPrefs.SetInt("tries", PlayerPrefs.GetInt("tries") + 1);
+                string key = "tries" + PlayerPrefs.GetInt("userId");
+                PlayerPrefs.SetInt(key, PlayerPrefs.GetInt(key) + 1);
             }
             GameOverScreen.Setup();
             Time.timeScale = 0f;
@@ -92,12 +93,12 @@ public class LifeCount : MonoBehaviour
 
 
             // LevelScript.Pass();
-            
-            tries = PlayerPrefs.GetInt("tries", tries);
+            string key = "tries" + PlayerPrefs.GetInt("userId");
+            tries = PlayerPrefs.GetInt(key, tries);
             StartCoroutine(InsertGameData());
             StartCoroutine(UpdateLevelData());
-            LevelCompletedScreen.Setup(livesRemaining, PlayerPrefs.GetInt("tries"));
-            PlayerPrefs.SetInt("tries", 1);
+            LevelCompletedScreen.Setup(livesRemaining, PlayerPrefs.GetInt(key));
+            PlayerPrefs.SetInt(key, 1);
             Time.timeScale = 0f;
             AudioSource[] audios = FindObjectsOfType<AudioSource>();
             foreach(AudioSource a in audios)
@@ -124,14 +125,7 @@ public class LifeCount : MonoBehaviour
 
     IEnumerator InsertGameData()
     {
-        /*
-        // This should work with an API that does not expect JSON
-        WWWForm form = new WWWForm();
-        form.AddField("name", "newGuy" + Random.Range(1000, 9000).ToString());
-        form.AddField("surname", "Tester" + Random.Range(1000, 9000).ToString());
-        Debug.Log(form);
-        */
-
+        string key = "tries" + PlayerPrefs.GetInt("userId");
         // Create the object to be sent as json
         // User testUser = new User();
         GameRunData gamerun = new GameRunData();
@@ -154,24 +148,13 @@ public class LifeCount : MonoBehaviour
         }
         gamerun.score = livesRemaining * 10;
         gamerun.deaths = 10 - livesRemaining;
-        gamerun.tries = PlayerPrefs.GetInt("tries");
-        
+        gamerun.tries = PlayerPrefs.GetInt(key);
 
-        // testUser.name = "newGuy" + Random.Range(1000, 9000).ToString();
-        // testUser.surname = "Tester" + Random.Range(1000, 9000).ToString();
-
-        //Debug.Log("USER: " + testUser);
         string jsonDataGameRun = JsonUtility.ToJson(gamerun);
         Debug.Log(jsonDataGameRun);
         
-
-        // string jsonDataLevelData = JsonUtility.ToJson(leveldata);
-        //Debug.Log("BODY: " + jsonData);
-        // Send using the Put method:
-        // https://stackoverflow.com/questions/68156230/unitywebrequest-post-not-sending-body
         UnityWebRequest www = UnityWebRequest.Put(url + "/game/gamerun" , jsonDataGameRun);
-        //UnityWebRequest www = UnityWebRequest.Post(url + getUsersEP, form);
-        // Set the method later, and indicate the encoding is JSON
+
         www.method = "POST";
         www.SetRequestHeader("Content-Type", "application/json");
         yield return www.SendWebRequest();
@@ -185,14 +168,8 @@ public class LifeCount : MonoBehaviour
 
      IEnumerator UpdateLevelData()
     {
-        /*
-        // This should work with an API that does not expect JSON
-        WWWForm form = new WWWForm();
-        form.AddField("name", "newGuy" + Random.Range(1000, 9000).ToString());
-        form.AddField("surname", "Tester" + Random.Range(1000, 9000).ToString());
-        Debug.Log(form);
-        */
-
+        string key = "tries" + PlayerPrefs.GetInt("userId");
+    
         // Create the object to be sent as json
         // User testUser = new User();
         
@@ -217,22 +194,13 @@ public class LifeCount : MonoBehaviour
 
         leveldata.score = livesRemaining *10;
         leveldata.deaths = 10 - livesRemaining;
-        leveldata.tries = PlayerPrefs.GetInt("tries");
+        leveldata.tries = PlayerPrefs.GetInt(key);
 
-        // testUser.name = "newGuy" + Random.Range(1000, 9000).ToString();
-        // testUser.surname = "Tester" + Random.Range(1000, 9000).ToString();
-
-        //Debug.Log("USER: " + testUser);
         string jsonDataLevelData = JsonUtility.ToJson(leveldata);
         Debug.Log(jsonDataLevelData);
 
-        // string jsonDataLevelData = JsonUtility.ToJson(leveldata);
-        //Debug.Log("BODY: " + jsonData);
-        // Send using the Put method:
-        // https://stackoverflow.com/questions/68156230/unitywebrequest-post-not-sending-body
         UnityWebRequest www = UnityWebRequest.Put(url + "/game/level" , jsonDataLevelData);
-        //UnityWebRequest www = UnityWebRequest.Post(url + getUsersEP, form);
-        // Set the method later, and indicate the encoding is JSON
+        
         www.method = "PUT";
         www.SetRequestHeader("Content-Type", "application/json");
         yield return www.SendWebRequest();
@@ -247,6 +215,7 @@ public class LifeCount : MonoBehaviour
     public void setIdUser(int idUser)
     {
         idUserr = idUser;
+        PlayerPrefs.SetInt("userId", idUser);
     }
 
 }
