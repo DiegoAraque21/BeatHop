@@ -28,7 +28,7 @@ async function logIn() {
     // Save user data in local storage
     const userLocalData = { idUser: resLogIn.idUser, email: resLogIn.email, userType: resLogIn.userType };
     localStorage.setItem('beathopUser', JSON.stringify( userLocalData ));
-
+    
     // Redirect to home
     window.location.href = "/";
 

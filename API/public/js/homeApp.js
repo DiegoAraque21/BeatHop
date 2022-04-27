@@ -29,6 +29,10 @@ function renderGraphLink() {
     }
 }
 
+//Send userID to game Build
+
+
+
 // When elements are loaded
 window.addEventListener('DOMContentLoaded', () => {
     renderGraphLink();

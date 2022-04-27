@@ -5,17 +5,25 @@ let connectToDB = require("../db");
 // Create game run
 router.post("/gamerun", function (req, res) {
   try {
+
+    console.log(req.body);
+    console.log(req.body.idUser);
+    console.log(req.body.idLevel);
+    console.log(req.body.score);
+    console.log(req.body.deaths);
+    console.log(req.body.tries);
     // Validate fields
-    if (!req.body.idUser ||
-        !req.body.idLevel ||
-        !req.body.score ||
-        !req.body.deaths ||
-        !req.body.tries)
-          throw "You must complete all fields.";
+    // if (!req.body.idUser ||
+    //     !req.body.idLevel ||
+    //     !req.body.score ||
+    //     !req.body.deaths ||
+    //     !req.body.tries)
+    //       throw "You must complete all fields.";
 
     // Make connection
     let connection = connectToDB();
     connection.connect();
+    
 
     // Create query
     let query = `INSERT INTO GameRun (idUser, idLevel, score, deaths, tries) VALUES
@@ -25,6 +33,7 @@ router.post("/gamerun", function (req, res) {
     connection.query(query, (error, results) => {
         // If error insertings
         if (error) {
+            
             console.log("INSERT GAMERUN ERROR:", error);
             return res.status(500).json({ error: "There was an error with the creation of the gamerun." });
         }
@@ -105,24 +114,31 @@ router.get("/level", function (req, res) {
 router.put("/level", function (req, res) {
     try {
         // Validate fields
-        if (!req.body.idLevel ||
-            !req.body.avgScore ||
-            !req.body.totalDeaths ||
-            !req.body.totalTries ||
-            !req.body.amountGameRuns)
-            throw "You must complete all fields.";
+        // if (!req.body.idLevel ||
+        //     !req.body.avgScore ||
+        //     !req.body.totalDeaths ||
+        //     !req.body.totalTries ||
+        //     !req.body.amountGameRuns)
+        //     throw "You must complete all fields.";
 
         // Make connection
         let connection = connectToDB();
         connection.connect();
 
         // Create user query
-        let query = `UPDATE level SET 
-                    avgScore = ${req.body.avgScore},
-                    totalDeaths = ${req.body.totalDeaths},
-                    totalTries = ${req.body.totalTries},
-                    amountGameRuns = ${req.body.amountGameRuns}
-                    WHERE idLevel = ${req.body.idLevel}`;
+        // let query = `UPDATE level SET 
+        //             avgScore = ${req.body.avgScore},
+        //             totalDeaths = ${req.body.totalDeaths},
+        //             totalTries = ${req.body.totalTries},
+        //             amountGameRuns = ${req.body.amountGameRuns}
+        //             WHERE idLevel = ${req.body.idLevel}`;
+
+        let query = `UPDATE level SET
+                    avgScore = (avgScore + ${req.body.score}) / (amountGameRuns + 1),
+                    totalDeaths = totalDeaths + ${req.body.deaths},
+                    totalTries = totalTries + ${req.body.tries},
+                    amountGameRuns = amountGameRuns + 1
+                    WHERE idlevel = ${req.body.idLevel}`
 
         // Execute query in DB
         connection.query(query, function (error, results) {

@@ -5,9 +5,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
+
+
 
 public class LifeCount : MonoBehaviour
 {   
+
+    int idUserr;
+
+    [SerializeField] string url;
+    public class GameRunData
+    {
+        
+        public int idUser;
+        public int idLevel;
+        public float score;
+        public int deaths;
+        public int tries;
+    }
+
+    //idLevel, tries, deaths, score 
+     public class LevelData
+    {
+        public int idLevel;
+        public float score;
+        public int tries;
+        public int deaths;
+    }
+
     public GameOverScreen GameOverScreen;
     public LevelCompletedScreen LevelCompletedScreen;
 
@@ -62,8 +89,13 @@ public class LifeCount : MonoBehaviour
         }
 
         if (col.gameObject.tag == "FinishLine"){
+
+
             // LevelScript.Pass();
+            
             tries = PlayerPrefs.GetInt("tries", tries);
+            StartCoroutine(InsertGameData());
+            StartCoroutine(UpdateLevelData());
             LevelCompletedScreen.Setup(livesRemaining, PlayerPrefs.GetInt("tries"));
             PlayerPrefs.SetInt("tries", 1);
             Time.timeScale = 0f;
@@ -75,7 +107,7 @@ public class LifeCount : MonoBehaviour
         }
      }
 
-
+    
     //Update game in function of its events
     void Update(){
         if(m_GotHitScreen != null){
@@ -89,4 +121,132 @@ public class LifeCount : MonoBehaviour
     // void OnTriggerEnter2D(Collider2D col) {
       
     // }
+
+    IEnumerator InsertGameData()
+    {
+        /*
+        // This should work with an API that does not expect JSON
+        WWWForm form = new WWWForm();
+        form.AddField("name", "newGuy" + Random.Range(1000, 9000).ToString());
+        form.AddField("surname", "Tester" + Random.Range(1000, 9000).ToString());
+        Debug.Log(form);
+        */
+
+        // Create the object to be sent as json
+        // User testUser = new User();
+        GameRunData gamerun = new GameRunData();
+        gamerun.idUser = idUserr;
+
+        Scene scene = SceneManager.GetActiveScene();
+        switch(scene.name) 
+        {
+        case "Level1":
+            // code block
+            gamerun.idLevel = 4;
+            break;
+        case "Level2":
+            // code block
+            gamerun.idLevel = 14;
+            break;
+        case "Level3":
+        gamerun.idLevel = 24;
+            break;
+        }
+        gamerun.score = livesRemaining * 10;
+        gamerun.deaths = 10 - livesRemaining;
+        gamerun.tries = PlayerPrefs.GetInt("tries");
+        
+
+        // testUser.name = "newGuy" + Random.Range(1000, 9000).ToString();
+        // testUser.surname = "Tester" + Random.Range(1000, 9000).ToString();
+
+        //Debug.Log("USER: " + testUser);
+        string jsonDataGameRun = JsonUtility.ToJson(gamerun);
+        Debug.Log(jsonDataGameRun);
+        
+
+        // string jsonDataLevelData = JsonUtility.ToJson(leveldata);
+        //Debug.Log("BODY: " + jsonData);
+        // Send using the Put method:
+        // https://stackoverflow.com/questions/68156230/unitywebrequest-post-not-sending-body
+        UnityWebRequest www = UnityWebRequest.Put(url + "/game/gamerun" , jsonDataGameRun);
+        //UnityWebRequest www = UnityWebRequest.Post(url + getUsersEP, form);
+        // Set the method later, and indicate the encoding is JSON
+        www.method = "POST";
+        www.SetRequestHeader("Content-Type", "application/json");
+        yield return www.SendWebRequest();
+
+        if (www.result == UnityWebRequest.Result.Success) {
+            Debug.Log("Response: " + www.downloadHandler.text);
+        } else {
+            Debug.Log("Error: " + www.error);
+        }
+    }
+
+     IEnumerator UpdateLevelData()
+    {
+        /*
+        // This should work with an API that does not expect JSON
+        WWWForm form = new WWWForm();
+        form.AddField("name", "newGuy" + Random.Range(1000, 9000).ToString());
+        form.AddField("surname", "Tester" + Random.Range(1000, 9000).ToString());
+        Debug.Log(form);
+        */
+
+        // Create the object to be sent as json
+        // User testUser = new User();
+        
+        LevelData leveldata = new LevelData();
+
+    
+        Scene scene = SceneManager.GetActiveScene();
+        switch(scene.name) 
+        {
+        case "Level1":
+            // code block
+            leveldata.idLevel = 4;
+            break;
+        case "Level2":
+            // code block
+            leveldata.idLevel = 14;
+            break;
+        case "Level3":
+        leveldata.idLevel = 24;
+            break;
+        }
+
+        leveldata.score = livesRemaining *10;
+        leveldata.deaths = 10 - livesRemaining;
+        leveldata.tries = PlayerPrefs.GetInt("tries");
+
+        // testUser.name = "newGuy" + Random.Range(1000, 9000).ToString();
+        // testUser.surname = "Tester" + Random.Range(1000, 9000).ToString();
+
+        //Debug.Log("USER: " + testUser);
+        string jsonDataLevelData = JsonUtility.ToJson(leveldata);
+        Debug.Log(jsonDataLevelData);
+
+        // string jsonDataLevelData = JsonUtility.ToJson(leveldata);
+        //Debug.Log("BODY: " + jsonData);
+        // Send using the Put method:
+        // https://stackoverflow.com/questions/68156230/unitywebrequest-post-not-sending-body
+        UnityWebRequest www = UnityWebRequest.Put(url + "/game/level" , jsonDataLevelData);
+        //UnityWebRequest www = UnityWebRequest.Post(url + getUsersEP, form);
+        // Set the method later, and indicate the encoding is JSON
+        www.method = "PUT";
+        www.SetRequestHeader("Content-Type", "application/json");
+        yield return www.SendWebRequest();
+
+        if (www.result == UnityWebRequest.Result.Success) {
+            Debug.Log("Response put: " + www.downloadHandler.text);
+        } else {
+            Debug.Log("Error put: " + www.error);
+        }
+    }
+
+    public void setIdUser(int idUser)
+    {
+        idUserr = idUser;
+    }
+
 }
