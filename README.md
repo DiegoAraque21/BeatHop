@@ -112,37 +112,37 @@ Each level will have a different background, that will be somehow related to the
 
 ### _Background Design_
 
-1. The City
-   1. Mood
-      Chill, easy, calm
-   2. Music
-      Normal tempo
-   3. Character
-      Girl Ninja
-   4. Background
-      <br>
-      <img src="./Images/backgrounds/cityLevel.png" width="400">
-      <br>
-2. Wild lands
+1. Mountains
 
    1. Mood
-      Challenging, exciting
+      Easy, exciting
    2. Music
       The music is slower, kind of a tutorial
-   3. Character
+   3. Character:
       Dinosaur
    4. Background
       <br>
       <img src="./Images/backgrounds/dinosaurLevel.png" width="400">
       <br>
+2. The City
+   1. Mood
+      Chill, challenging, calm
+   2. Music
+      Normal tempo, but some parts are faster
+   3. Character:
+      Chill Ninja
+   4. Background
+      <br>
+      <img src="./Images/backgrounds/cityLevel.png" width="400">
+      <br>
 
-3. Snowy Lands
+3. North Pole
    1. Mood
       Challenging, exciting, hard
    2. Music
       This last level will have the fastest music with a lot of tempo obstacles.
-   3. Character
-      Ninja
+   3. Character:
+      Ice Ninja
    4. Background
       <br>
       <img src="./Images/backgrounds/snowLevel.png" width="400">
@@ -156,7 +156,7 @@ Three levels will be developed. Once a level is completed, another level and cha
 
 1. The player starts moving while some music is playing.
 2. As the background changes, the player will encounter multiple objects with a musical tempo note inside that the player will need to jump. The type of the jump will depend on the note. If the player touches an obstacle he will loose a life, on the other hand, if he only has 1 life he will have to restart the level.
-3. If the player reaches the end with one or more lives, he wins and unlockes the next character and level, if he hasn't unlocked all of them already.
+3. If the player reaches the end with one or more lives, he wins. Every level will be available, but players, especally beginners should play them in order.
 
 ## Development
 
@@ -190,11 +190,11 @@ The main colors that we will be using are purple, yellow, orange, red, blue and 
 <br>
 <img src="./Images/assets/palettes/colorPaletteCityLevel.png" width="250">
 <br>
-"Wild Lands"
+"Mountains"
 <br>
 <img src="./Images/assets/palettes/colorPaletteDinosaurLevel.png" width="250">
 <br>
-"Snowy Lands"
+"North Pole"
 <br>
 <img src="./Images/assets/palettes/colorPaletteSnowyLands.png" width="250">
 <br>
@@ -209,9 +209,9 @@ We will have visual feedback in the form of colors, every time the character get
 
 1. Characters
    1. Human-like
-      1. Basic Jim (idle, jumping)
-      2. Disco Stew (idle, jumping)
-      3. Punk Bill (idle, jumping)
+      1. Dinosaur (idle, jumping)
+      2. Chill Ninja (idle, jumping)
+      3. Ice ninja (idle, jumping)
 2. Blocks
    1. Whole note (4 beats)
    2. Half note (2 beats)
