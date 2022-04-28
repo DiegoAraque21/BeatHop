@@ -112,21 +112,10 @@ Each level will have a different background, that will be somehow related to the
 
 ### _Background Design_
 
-1. The City
-   1. Mood
-      Chill, easy, calm
-   2. Music
-      Normal tempo
-   3. Character
-      Girl Ninja
-   4. Background
-      <br>
-      <img src="./Images/backgrounds/cityLevel.png" width="400">
-      <br>
-2. Wild lands
+1. Mountains
 
    1. Mood
-      Challenging, exciting
+      Easy, exciting
    2. Music
       The music is slower, kind of a tutorial
    3. Character
@@ -135,8 +124,19 @@ Each level will have a different background, that will be somehow related to the
       <br>
       <img src="./Images/backgrounds/dinosaurLevel.png" width="400">
       <br>
+2. The City
+   1. Mood
+      Chill, challenging, calm
+   2. Music
+      Normal tempo, but some parts are faster
+   3. Character
+      Girl Ninja
+   4. Background
+      <br>
+      <img src="./Images/backgrounds/cityLevel.png" width="400">
+      <br>
 
-3. Snowy Lands
+3. North Pole
    1. Mood
       Challenging, exciting, hard
    2. Music
