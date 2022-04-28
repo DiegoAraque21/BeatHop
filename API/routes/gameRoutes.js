@@ -129,7 +129,7 @@ router.put("/level", function (req, res) {
 
     // Create user query
     let query = `UPDATE level SET
-                    avgScore = (avgScore + ${req.body.score}) / (amountGameRuns + 1),
+                    avgScore = (avgScore * (amountGameRuns / (amountGameRuns  + 1))) + (${req.body.score} / (amountGameRuns  + 1)),
                     totalDeaths = totalDeaths + ${req.body.deaths},
                     totalTries = totalTries + ${req.body.tries},
                     amountGameRuns = amountGameRuns + 1
