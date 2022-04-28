@@ -13,5 +13,7 @@ body {
 }
 
 #unity-container {
-  margin-top: 2vh;
+  width: 70%;
+  height: 80%;
+  margin: auto;
 }

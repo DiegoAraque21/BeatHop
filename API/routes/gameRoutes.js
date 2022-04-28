@@ -18,11 +18,9 @@ router.post("/gamerun", function (req, res) {
       // If error insertings
       if (error) {
         console.log("INSERT GAMERUN ERROR:", error);
-        return res
-          .status(500)
-          .json({
-            error: "There was an error with the creation of the gamerun.",
-          });
+        return res.status(500).json({
+          error: "There was an error with the creation of the gamerun.",
+        });
       }
 
       // Response
