@@ -118,7 +118,7 @@ Each level will have a different background, that will be somehow related to the
       Easy, exciting
    2. Music
       The music is slower, kind of a tutorial
-   3. Character
+   3. Character:
       Dinosaur
    4. Background
       <br>
@@ -129,7 +129,7 @@ Each level will have a different background, that will be somehow related to the
       Chill, challenging, calm
    2. Music
       Normal tempo, but some parts are faster
-   3. Character
+   3. Character:
       Chill Ninja
    4. Background
       <br>
@@ -141,7 +141,7 @@ Each level will have a different background, that will be somehow related to the
       Challenging, exciting, hard
    2. Music
       This last level will have the fastest music with a lot of tempo obstacles.
-   3. Character
+   3. Character:
       Ice Ninja
    4. Background
       <br>
