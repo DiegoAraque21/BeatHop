@@ -130,7 +130,7 @@ Each level will have a different background, that will be somehow related to the
    2. Music
       Normal tempo, but some parts are faster
    3. Character
-      Girl Ninja
+      Chill Ninja
    4. Background
       <br>
       <img src="./Images/backgrounds/cityLevel.png" width="400">
@@ -142,7 +142,7 @@ Each level will have a different background, that will be somehow related to the
    2. Music
       This last level will have the fastest music with a lot of tempo obstacles.
    3. Character
-      Ninja
+      Ice Ninja
    4. Background
       <br>
       <img src="./Images/backgrounds/snowLevel.png" width="400">
@@ -209,9 +209,9 @@ We will have visual feedback in the form of colors, every time the character get
 
 1. Characters
    1. Human-like
-      1. Basic Jim (idle, jumping)
-      2. Disco Stew (idle, jumping)
-      3. Punk Bill (idle, jumping)
+      1. Dinosaur (idle, jumping)
+      2. Chill Ninja (idle, jumping)
+      3. Ice ninja (idle, jumping)
 2. Blocks
    1. Whole note (4 beats)
    2. Half note (2 beats)
