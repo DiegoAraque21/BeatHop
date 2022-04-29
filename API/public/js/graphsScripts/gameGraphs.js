@@ -51,7 +51,7 @@ const gameDataset = [
     ],
   },
   {
-    title: "Total tries per level",
+    title: "Avg tries per level",
     label: "Total Tries",
     canvasId: "game3",
     answers: [
@@ -94,7 +94,8 @@ async function buildGameGraphs() {
       gameDataset[0].answers[i].num = resGame.levels[i].avgScore;
       gameDataset[1].answers[i].num =
         resGame.levels[i].totalDeaths / resGame.levels[i].totalTries;
-      gameDataset[2].answers[i].num = resGame.levels[i].totalTries;
+      gameDataset[2].answers[i].num =
+        resGame.levels[i].totalTries / resGame.levels[i].amountGameRuns;
     }
 
     // Build graphs with the dataset
