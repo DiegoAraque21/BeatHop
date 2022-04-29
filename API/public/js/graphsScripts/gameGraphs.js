@@ -93,7 +93,7 @@ async function buildGameGraphs() {
     for (let i = 0; i < 3; i++) {
       gameDataset[0].answers[i].num = resGame.levels[i].avgScore;
       gameDataset[1].answers[i].num =
-        resGame.levels[i].totalDeaths / resGame.levels[i].amountGameRuns;
+        resGame.levels[i].totalDeaths / resGame.levels[i].totalTries;
       gameDataset[2].answers[i].num = resGame.levels[i].totalTries;
     }
 
