@@ -84,14 +84,16 @@ async function buildGameGraphs() {
         let resGameDB = await fetch("http://localhost:3000/game/all_level");
         let resGame = await resGameDB.json();
 
+        console.log("RES:", resGame);
+
         // If request fails
         if (resGame.error) throw resGame.error;
 
         // Modify datasets
         for (let i = 0; i < 3; i++){
             gameDataset[0].answers[i].num = resGame.levels[i].avgScore;
-            gameDataset[1].answers[i].num = resGame.levels[i].totalDeaths;
-            gameDataset[2].answers[i].num = resGame.levels[i].totalTries;
+            gameDataset[1].answers[i].num = resGame.levels[i].totalDeaths / resGame.levels[i].amountGameRuns;
+            gameDataset[2].answers[i].num = resGame.levels[i].totalTries / resGame.levels[i].amountGameRuns;
         }
 
         // Build graphs with the dataset
