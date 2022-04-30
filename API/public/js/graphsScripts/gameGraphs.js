@@ -91,11 +91,11 @@ async function buildGameGraphs() {
 
     // Modify datasets
     for (let i = 0; i < 3; i++) {
-      gameDataset[0].answers[i].num = resGame.levels[i].avgScore;
+      gameDataset[0].answers[i].num = resGame.levels[i].avgScore.toFixed(2);
       gameDataset[1].answers[i].num =
-        resGame.levels[i].totalDeaths / resGame.levels[i].totalTries;
+        (resGame.levels[i].totalDeaths / resGame.levels[i].amountGameRuns).toFixed(2);
       gameDataset[2].answers[i].num =
-        resGame.levels[i].totalTries / resGame.levels[i].amountGameRuns;
+        (resGame.levels[i].totalTries / resGame.levels[i].amountGameRuns).toFixed(2);
     }
 
     // Build graphs with the dataset
