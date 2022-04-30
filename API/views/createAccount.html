@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <!-- HEAD -->
   <head>
     <meta charset="UTF-8" />
@@ -14,7 +13,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/createAccount.css"/>
+    <link rel="stylesheet" href="/css/createAccount.css" />
 
     <!-- Scripts -->
     <script src="/js/createAccountApp.js"></script>
@@ -23,18 +22,18 @@
   </head>
 
   <body>
-
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand mx-4" href="#">BeatHop</a>
-        <button class="btn btn-sm btn-primary mx-4" onclick="goToLogIn()">Log In</button>
+        <button class="btn btn-sm btn-primary mx-4" onclick="goToLogIn()">
+          Log In
+        </button>
       </div>
     </nav>
 
     <!-- CONTAINER -->
     <div class="container">
-
       <!-- TITLE -->
       <h1 class="text-white text-center mb-4">Create Account</h1>
 
@@ -78,7 +77,9 @@
         <!-- TYPE -->
         <div class="d-flex">
           <div class="col">
-            <label for="userType" class="form-label text-white">User Type</label>
+            <label for="userType" class="form-label text-white"
+              >User Type</label
+            >
             <select name="userType" id="userType" class="form-select">
               <option></option>
               <option>Player</option>
@@ -111,7 +112,12 @@
           <label for="answer1" class="form-label text-white"
             >Have you played any percussion instrument?</label
           >
-          <select name="answer1" id="answer1" class="form-select" placeholder="Choose...">
+          <select
+            name="answer1"
+            id="answer1"
+            class="form-select"
+            placeholder="Choose..."
+          >
             <option></option>
             <option>Yes</option>
             <option>A little bit</option>
@@ -135,7 +141,7 @@
         <!-- Q3 -->
         <div class="col-md-12">
           <label for="answer3" class="form-label text-white"
-            >Can you identify all the different tempo notes?</label
+            >Can you identify the tempo of every note?</label
           >
           <select name="answer3" id="answer3" class="form-select">
             <option></option>
@@ -147,9 +153,14 @@
 
         <!-- BUTTON -->
         <div class="col-12">
-          <button type="button" class="btn btn-primary w-100 mt-4 mb-5" onclick="createAccount()">Create Account</button>
+          <button
+            type="button"
+            class="btn btn-primary w-100 mt-4 mb-5"
+            onclick="createAccount()"
+          >
+            Create Account
+          </button>
         </div>
-
       </form>
     </div>
   </body>
