@@ -16,8 +16,12 @@ public class LevelCompletedScreen : MonoBehaviour
     //Make LevelCompleted screen pop up and show game data
     public void Setup(int lives, int tries)
     {   
-        if(tries == 1){
+        if(tries == 1 && lives != 1){
             livesText.text = "with " + lives.ToString() + " lives in " + tries.ToString() + " try";
+        } else if(lives == 1 && tries == 1){
+            livesText.text = "with " + lives.ToString() + " life in " + tries.ToString() + " try";
+        } else if (lives == 1){
+            livesText.text = "with " + lives.ToString() + " life in " + tries.ToString() + " tries";
         } else{
             livesText.text = "with " + lives.ToString() + " lives in " + tries.ToString() + " tries";
         }
