@@ -1,6 +1,25 @@
 .container {
     margin-top: 50px;
     text-align: center;
-    width: 800px;
+    width: 1200px;
     margin-bottom: 80px;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 19px;
+    text-align: start;
+}
+
+.questions{
+    margin: 20px 0px 40px 0px;
+}
+
+.question{
+    font-size: 15px;
+    text-align: start;
+    line-height: 20px;
 }

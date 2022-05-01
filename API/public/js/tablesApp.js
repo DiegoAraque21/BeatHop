@@ -39,7 +39,39 @@ function renderAdminLinks() {
     }
 }
 
+async function buildPlayersAnswersTables() {
+    try {
+        // Send request
+        let resTableDB = await fetch("http://localhost:3000/graphs/players_answers");
+        let resTable = await resTableDB.json();
+
+        // If request fails
+        if (resTable.error) throw resTable.error;
+
+        // Build table
+        const tableBody = document.querySelector("#table_body");
+        resTable.results.forEach(row => {
+            tableBody.innerHTML += `
+                <tr>
+                    <td>${row.name}</td>
+                    <td>${row.lastName}</td>
+                    <td>${row.age}</td>
+                    <td>${row.answer1}</td>
+                    <td>${row.answer2}</td>
+                    <td>${row.answer3}</td>
+                </tr>
+            `;
+        });
+
+    }
+    catch (error) {
+        console.log("BUILD TABLES ERROR:", error);
+        alert("There was an error creating the tables.");
+    }
+}
+
 // When elements are loaded
 window.addEventListener('DOMContentLoaded', () => {
     renderAdminLinks();
+    buildPlayersAnswersTables();
 });

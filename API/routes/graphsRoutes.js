@@ -96,4 +96,47 @@ router.get("/forms", function (req, res) {
     }
 });
 
+// Get players answers data
+router.get("/players_answers", function (req, res) {
+    try {
+        // Make connection
+        let connection = connectToDB();
+        connection.connect();
+
+        // Create user query
+        let query = `SELECT * FROM players_answers;`;
+
+        // Execute query in DB
+        connection.query(query, function (error, results) {
+        
+            // If error
+            if (error) {
+                return res
+                    .status(500)
+                    .json({
+                        error: "Error getting the palyers data.",
+                        status: false,
+                    });
+            }
+        
+            // If everything is correct return level data
+            res
+                .status(200)
+                .json({
+                    message: "Successful request.",
+                    status: true,
+                    results
+                });
+        });
+
+        // End connection
+        connection.end();
+    }
+    // Manage error
+    catch (error) {
+        console.log("GET PLAYERS DATA ERROR:", error);
+        res.status(500).json({ error });
+    }
+});
+
 module.exports = router;
