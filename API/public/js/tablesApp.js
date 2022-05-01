@@ -43,9 +43,7 @@ function renderAdminLinks() {
 async function buildTopTables() {
   try {
     // Send request for highest
-    let resHighestDB = await fetch(
-      "http://localhost:3000/graphs/highest_scores"
-    );
+    let resHighestDB = await fetch("http://localhost:3000/graphs/highest_scores");
     let resHighest = await resHighestDB.json();
 
     // Send request for lowest
@@ -53,8 +51,8 @@ async function buildTopTables() {
     let resLowest = await resLowestDB.json();
 
     // If request fails
-    if (resHighest.error) throw resTable.error;
-    if (resLowest.error) throw resTable.error;
+    if (resHighest.error) throw resHighest.error;
+    if (resLowest.error) throw resLowest.error;
 
     // Build highest table
     const table1Body = document.querySelector("#table_1_body");

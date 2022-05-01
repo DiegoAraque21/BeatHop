@@ -104,7 +104,7 @@ router.get("/players_answers", function (req, res) {
         connection.connect();
 
         // Create user query
-        let query = `SELECT * FROM players_answers;`;
+        let query = `SELECT * FROM players_answers LIMIT 20;`;
 
         // Execute query in DB
         connection.query(query, function (error, results) {
@@ -162,7 +162,7 @@ router.get("/highest_scores", function (req, res) {
                     });
             }
         
-            // If everything is correct return level data
+            // If everything is correct return data
             res
                 .status(200)
                 .json({
@@ -205,7 +205,7 @@ router.get("/lowest_scores", function (req, res) {
                     });
             }
         
-            // If everything is correct return level data
+            // If everything is correct return data
             res
                 .status(200)
                 .json({
