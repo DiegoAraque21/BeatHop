@@ -2,6 +2,7 @@ let express = require("express");
 let router = express.Router();
 let connectToDB = require("../db");
 
+
 // Create game run
 router.post("/gamerun", function (req, res) {
   try {
@@ -39,6 +40,7 @@ router.post("/gamerun", function (req, res) {
     res.status(500).json({ error });
   }
 });
+
 
 // Get level data
 router.get("/level", function (req, res) {
@@ -83,5 +85,51 @@ router.get("/level", function (req, res) {
     res.status(500).json({ error });
   }
 });
+
+
+// Update level data
+router.put("/level", function (req, res) {
+  try {
+    // Make connection
+    let connection = connectToDB();
+    connection.connect();
+
+    // Create user query
+    let query = `UPDATE level SET
+                    avgScore = (avgScore * (amountGameRuns / (amountGameRuns  + 1))) + (${req.body.score} / (amountGameRuns  + 1)),
+                    totalDeaths = totalDeaths + ${req.body.deaths},
+                    totalTries = totalTries + ${req.body.tries},
+                    amountGameRuns = amountGameRuns + 1
+                    WHERE idlevel = ${req.body.idLevel}`;
+
+    console.log(req.body);
+    console.log(query);
+    // Execute query in DB
+    connection.query(query, function (error, results) {
+      // If there is no level or there is an error
+      if (error) {
+        console.log("UPDATE LEVEL DATA ERROR:", error);
+        return res.status(500).json({
+          error: "Error updating level data.",
+          status: false,
+        });
+      }
+
+      // If everything is correct
+      res.status(200).json({
+        message: "Successfully updated level data.",
+        status: true,
+      });
+    });
+
+    // End connection
+    connection.end();
+  } catch (error) {
+    // Manage error
+    console.log("UPDATE LEVEL DATA ERROR:", error);
+    res.status(500).json({ error });
+  }
+});
+
 
 module.exports = router;

@@ -18,14 +18,18 @@ DELIMITER //
 CREATE TRIGGER update_level_data AFTER INSERT ON gamerun
 FOR EACH ROW 
 BEGIN
+
 	SET @currentAvgScore = (SELECT avgScore from level WHERE idLevel = NEW.idLevel);
     SET @currentTotalDeaths = (SELECT totalDeaths from level WHERE idLevel = NEW.idLevel);
     SET @currentTotalTries = (SELECT totalTries from level WHERE idLevel = NEW.idLevel);
     SET @currentAmount = (SELECT amountGameRuns from level WHERE idLevel = NEW.idLevel);
+
 	UPDATE level SET 
 		avgScore = ( ((SELECT @currentAvgScore) * ( ((SELECT @currentAmount) - 1) / (SELECT @currentAmount))) + (NEW.score / (SELECT @currentAmount))),
         totalDeaths = ( (SELECT @currentTotalDeaths) + NEW.deaths ),
         totalTries = ( (SELECT @currentTotalTries) + NEW.tries )
+		
 	WHERE idLevel = NEW.idLevel;
+
 END //
 DELIMITER ;
