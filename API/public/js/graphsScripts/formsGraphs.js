@@ -5,19 +5,19 @@ const formsDataset = [
         canvasId: "forms1",
         answers: [
             {
-                num: 10,
+                num: 1,
                 label: "Yes",
                 color: "rgba(54, 162, 235, 0.2)",
                 border: "rgb(54, 162, 235)"
             },
             {
-                num: 3,
+                num: 1,
                 label: "A little bit",
                 color: "rgba(255, 205, 86, 0.2)",
                 border: "rgb(255, 205, 86)"
             },
             {
-                num: 8,
+                num: 1,
                 label: "No",
                 color: "rgba(255, 99, 132, 0.2)",
                 border: "rgb(255, 99, 132)"
@@ -29,19 +29,19 @@ const formsDataset = [
         canvasId: "forms2",
         answers: [
             {
-                num: 10,
+                num: 1,
                 label: "Yes",
                 color: "rgba(54, 162, 235, 0.2)",
                 border: "rgb(54, 162, 235)"
             },
             {
-                num: 8,
+                num: 1,
                 label: "Some of them",
                 color: "rgba(255, 205, 86, 0.2)",
                 border: "rgb(255, 205, 86)"
             },
             {
-                num: 7,
+                num: 1,
                 label: "No",
                 color: "rgba(255, 99, 132, 0.2)",
                 border: "rgb(255, 99, 132)"
@@ -53,19 +53,19 @@ const formsDataset = [
         canvasId: "forms3",
         answers: [
             {
-                num: 10,
+                num: 1,
                 label: "Yes",
                 color: "rgba(54, 162, 235, 0.2)",
                 border: "rgb(54, 162, 235)"
             },
             {
-                num: 8,
+                num: 1,
                 label: "Some of them",
                 color: "rgba(255, 205, 86, 0.2)",
                 border: "rgb(255, 205, 86)"
             },
             {
-                num: 7,
+                num: 1,
                 label: "No",
                 color: "rgba(255, 99, 132, 0.2)",
                 border: "rgb(255, 99, 132)"
@@ -84,41 +84,20 @@ async function buildFormsGraphs() {
         // If request fails
         if (resForms.error) throw resForms.error;
 
-        // Count answers
-        const amounts = [
-            {
-                yes: 0,
-                middle: 0,
-                no: 0
-            },
-            {
-                yes: 0,
-                middle: 0,
-                no: 0
-            },
-            {
-                yes: 0,
-                middle: 0,
-                no: 0
-            }
-        ]
+        // Set answers of graph 1
+        formsDataset[0].answers[0].num = resForms.results[0].Q1_A1;
+        formsDataset[0].answers[1].num = resForms.results[0].Q1_A2;
+        formsDataset[0].answers[2].num = resForms.results[0].Q1_A3;
 
-        resForms.forms.forEach(form => {
-            // Question 1
-            if (form.answer1 == "Yes") amounts[0].yes++;
-            else if (form.answer1 == "A little bit") amounts[0].middle++;
-            else if (form.answer1 == "No") amounts[0].no++;
+        // Set answers of graph 2
+        formsDataset[1].answers[0].num = resForms.results[0].Q2_A1;
+        formsDataset[1].answers[1].num = resForms.results[0].Q2_A2;
+        formsDataset[1].answers[2].num = resForms.results[0].Q2_A3;
 
-            // Question 2
-            if (form.answer2 == "Yes") amounts[1].yes++;
-            else if (form.answer2 == "Some of them") amounts[1].middle++;
-            else if (form.answer2 == "No") amounts[1].no++;
-
-            // Question 1
-            if (form.answer3 == "Yes") amounts[2].yes++;
-            else if (form.answer3 == "Some of them") amounts[2].middle++;
-            else if (form.answer3 == "No") amounts[2].no++;
-        });
+        // Set answers of graph 3
+        formsDataset[2].answers[0].num = resForms.results[0].Q3_A1;
+        formsDataset[2].answers[1].num = resForms.results[0].Q3_A2;
+        formsDataset[2].answers[2].num = resForms.results[0].Q3_A3;
 
         // Build graphs with the dataset
         formsDataset.forEach((graph, i) => {
@@ -138,9 +117,9 @@ async function buildFormsGraphs() {
                     datasets: [{
                         label: graph.label,
                         data: [
-                            amounts[i].yes,
-                            amounts[i].middle,
-                            amounts[i].no
+                            graph.answers[0].num,
+                            graph.answers[1].num,
+                            graph.answers[2].num
                         ],
                         backgroundColor: [
                             graph.answers[0].color,

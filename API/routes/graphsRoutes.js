@@ -56,7 +56,7 @@ router.get("/forms", function (req, res) {
         connection.connect();
 
         // Create user query
-        let query = `SELECT * FROM form`;
+        let query = `CALL CountAnswers()`;
 
         // Execute query in DB
         connection.query(query, function (error, results) {
@@ -66,7 +66,7 @@ router.get("/forms", function (req, res) {
                 return res
                     .status(500)
                     .json({
-                        error: "Error getting the forms.",
+                        error: "Error getting the forms data.",
                         status: false,
                     });
             }
@@ -77,7 +77,7 @@ router.get("/forms", function (req, res) {
                 .json({
                     message: "Successful request.",
                     status: true,
-                    forms: results
+                    results: results[0]
                 });
         });
 

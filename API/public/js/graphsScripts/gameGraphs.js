@@ -81,10 +81,8 @@ const gameDataset = [
 async function buildGameGraphs() {
   try {
     // Send request
-    let resGameDB = await fetch("http://localhost:3000/game/all_level");
+    let resGameDB = await fetch("http://localhost:3000/graphs/levels");
     let resGame = await resGameDB.json();
-
-    console.log("RES:", resGame);
 
     // If request fails
     if (resGame.error) throw resGame.error;
