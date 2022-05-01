@@ -94,7 +94,8 @@ router.post("/create_account", function (req, res) {
 
     // Create user query
     let userQuery = `INSERT INTO User (name, lastName, email, password, userType, age, gender, idForm) VALUES 
-    ("${req.body.name}", "${req.body.lastName}", "${req.body.email}", "${req.body.password}", "${req.body.userType}", ${req.body.age}, "${req.body.gender}", ${req.body.idForm})`;
+    ("${req.body.name}", "${req.body.lastName}", "${req.body.email}", "${req.body.password}", 
+    "${req.body.userType}", ${req.body.age}, "${req.body.gender}", ${req.body.idForm})`;
 
     // Execute from query in DB
     connection.query(userQuery, (error, results) => {

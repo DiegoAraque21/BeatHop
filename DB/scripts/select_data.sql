@@ -1,0 +1,14 @@
+-- USE BEATHOP SCHEME
+USE beathop;
+
+-- SELECT FORM BY INSTRUMENT
+SELECT * FROM Form WHERE answer2="Drums";
+
+-- SELECT USER BY EMAIL
+SELECT * FROM User WHERE email="gsaenz@gmail.com";
+
+-- SELECT LEVEL WHERE AVG >= 80
+SELECT * FROM Level WHERE avgScore>=80;
+
+-- SELECT GAMERUN BY LEVELID
+SELECT * FROM GameRun WHERE idLevel=3;
