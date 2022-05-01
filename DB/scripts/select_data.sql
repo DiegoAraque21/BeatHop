@@ -2,7 +2,7 @@
 USE beathop;
 
 -- SELECT FORM BY INSTRUMENT
-SELECT * FROM Form WHERE answer2="Drums";
+SELECT * FROM Form WHERE answer2="Yes";
 
 -- SELECT USER BY EMAIL
 SELECT * FROM User WHERE email="gsaenz@gmail.com";
