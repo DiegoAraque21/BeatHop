@@ -18,22 +18,20 @@ function closeSession() {
 }
 
 // Render graphs navbar link
-function renderGraphLink() {
+function renderAdminLinks() {
     const graphBtn = document.getElementById("graphs_link");
+    const tablesBtn = document.getElementById("tables_link");
     const localUser = JSON.parse(localStorage.getItem('beathopUser'));
 
     // If user is not admin
     if (localUser?.userType !== "PAS Admin") {
-        // Hide button
+        // Hide buttons
         graphBtn.style.display = "none";
+        tablesBtn.style.display = "none";
     }
 }
 
-//Send userID to game Build
-
-
-
 // When elements are loaded
 window.addEventListener('DOMContentLoaded', () => {
-    renderGraphLink();
+    renderAdminLinks();
 });

@@ -3,9 +3,14 @@ let router = express.Router();
 let path = require("path");
 let connectToDB = require("../db");
 
-// Get the html
+// Get the graphs html
 router.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, '../views/graphs.html'));
+});
+
+// Get the tables html
+router.get("/tables", function (req, res) {
+    res.sendFile(path.join(__dirname, '../views/tables.html'));
 });
 
 // Get levels data
