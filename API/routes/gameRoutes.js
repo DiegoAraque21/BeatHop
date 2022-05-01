@@ -11,8 +11,7 @@ router.post("/gamerun", function (req, res) {
     connection.connect();
 
     // Create query
-    let query = `INSERT INTO GameRun (idUser, idLevel, score, deaths, tries) VALUES
-    (${req.body.idUser}, ${req.body.idLevel}, ${req.body.score}, ${req.body.deaths}, ${req.body.tries})`;
+    let query = `CALL AddGameRun(${req.body.idUser}, ${req.body.idLevel}, ${req.body.score}, ${req.body.deaths}, ${req.body.tries})`
 
     // Execute query in DB
     connection.query(query, (error, results) => {
@@ -26,9 +25,7 @@ router.post("/gamerun", function (req, res) {
 
       // Response
       res.status(200).json({
-        message: "Game run inserted successfully.",
-        // formId: results.insertId,
-        formId: 1,
+        message: "Game run inserted successfully."
       });
     });
 
@@ -102,8 +99,6 @@ router.put("/level", function (req, res) {
                     amountGameRuns = amountGameRuns + 1
                     WHERE idlevel = ${req.body.idLevel}`;
 
-    console.log(req.body);
-    console.log(query);
     // Execute query in DB
     connection.query(query, function (error, results) {
       // If there is no level or there is an error
