@@ -39,6 +39,56 @@ function renderAdminLinks() {
     }
 }
 
+// Build top tables
+async function buildTopTables() {
+  try {
+    // Send request for highest
+    let resHighestDB = await fetch(
+      "http://localhost:3000/graphs/highest_scores"
+    );
+    let resHighest = await resHighestDB.json();
+
+    // Send request for lowest
+    let resLowestDB = await fetch("http://localhost:3000/graphs/lowest_scores");
+    let resLowest = await resLowestDB.json();
+
+    // If request fails
+    if (resHighest.error) throw resTable.error;
+    if (resLowest.error) throw resTable.error;
+
+    // Build highest table
+    const table1Body = document.querySelector("#table_1_body");
+    resHighest.results.forEach((row) => {
+        table1Body.innerHTML += `
+                <tr>
+                    <td>${row["Name of the Level"]}</td>
+                    <td>${row["player"]}</td>
+                    <td>${row["Score"]}</td>
+                    <td>${row["Avg score of the level"]}</td>
+                </tr>
+            `;
+    });
+
+    // Build lowest table
+    const table2Body = document.querySelector("#table_2_body");
+    resLowest.results.forEach((row) => {
+        table2Body.innerHTML += `
+                <tr>
+                    <td>${row["Name of the Level"]}</td>
+                    <td>${row["player"]}</td>
+                    <td>${row["Score"]}</td>
+                    <td>${row["Avg score of the level"]}</td>
+                </tr>
+            `;
+    });
+      
+  } catch (error) {
+    console.log("BUILD TABLES ERROR:", error);
+    alert("There was an error creating the tables.");
+  }
+}
+
+// Build players-answers table
 async function buildPlayersAnswersTables() {
     try {
         // Send request
@@ -49,7 +99,7 @@ async function buildPlayersAnswersTables() {
         if (resTable.error) throw resTable.error;
 
         // Build table
-        const tableBody = document.querySelector("#table_body");
+        const tableBody = document.querySelector("#table_3_body");
         resTable.results.forEach(row => {
             tableBody.innerHTML += `
                 <tr>
@@ -73,5 +123,6 @@ async function buildPlayersAnswersTables() {
 // When elements are loaded
 window.addEventListener('DOMContentLoaded', () => {
     renderAdminLinks();
+    buildTopTables();
     buildPlayersAnswersTables();
 });
