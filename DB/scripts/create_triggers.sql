@@ -1,3 +1,10 @@
+/*
+	We host our DB in the ClearDB service from Heroku,
+	unfortunally the free plan of that service doesn´t allow 
+	the use of triggers. The following triggers are not implemented on the
+	system but they would work if the owner wants to pay for another plan.
+*/
+
 -- TRIGGER FOR UPDATING THE AMOUNT OF GAMERUNS OF A LEVEL
 DROP TRIGGER IF EXISTS update_level_amount_gameruns;
 
