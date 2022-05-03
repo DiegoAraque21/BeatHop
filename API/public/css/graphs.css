@@ -1,7 +1,7 @@
 .container {
     margin-top: 50px;
     text-align: center;
-    width: 800px;
+    width: 100vw;
     margin-bottom: 80px;
 }
 .graphs_title{
@@ -10,4 +10,11 @@
 }
 .graph_canvas{
     margin-bottom: 60px;
+}
+
+.forms_graphs
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
