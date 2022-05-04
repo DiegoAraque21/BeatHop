@@ -153,7 +153,7 @@ public class LifeCount : MonoBehaviour
         string jsonDataGameRun = JsonUtility.ToJson(gamerun);
         Debug.Log(jsonDataGameRun);
         
-        UnityWebRequest www = UnityWebRequest.Put(url + "/game/gamerun" , jsonDataGameRun);
+        UnityWebRequest www = UnityWebRequest.Put("https://beathop.herokuapp.com" + "/game/gamerun" , jsonDataGameRun);
 
         www.method = "POST";
         www.SetRequestHeader("Content-Type", "application/json");
@@ -199,7 +199,7 @@ public class LifeCount : MonoBehaviour
         string jsonDataLevelData = JsonUtility.ToJson(leveldata);
         Debug.Log(jsonDataLevelData);
 
-        UnityWebRequest www = UnityWebRequest.Put(url + "/game/level" , jsonDataLevelData);
+        UnityWebRequest www = UnityWebRequest.Put("https://beathop.herokuapp.com" + "/game/level" , jsonDataLevelData);
         
         www.method = "PUT";
         www.SetRequestHeader("Content-Type", "application/json");
