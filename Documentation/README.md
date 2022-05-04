@@ -15,4 +15,4 @@
 3. Run the following command: npm install
 4. After installing all the necessary packages run: npm start
 5. After doing this the API will be running, you will just need to open your broser and go to localhost:3000
-6. If you want to stop it from running, just type Ctrl+ C in your terminal
+6. If you want to stop it from running, just type Ctrl + C in your terminal
