@@ -15,7 +15,7 @@ public class LifeCount : MonoBehaviour
 
     int idUserr;
 
-    [SerializeField] string url;
+    
     public class GameRunData
     {
         
