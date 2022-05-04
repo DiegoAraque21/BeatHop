@@ -13,58 +13,53 @@ router.post("/login", function (req, res) {
     // Validate fields
     if (!req.body.email || !req.body.password)
       throw "You must complete all fields.";
-    
+
     // Make connection
     let connection = connectToDB();
     connection.connect();
 
     // Create user query
-    let query = `SELECT idUser, email, password, userType FROM User WHERE (email = "${req.body.email}")`
+    let query = `SELECT idUser, email, password, userType FROM User WHERE (email = "${req.body.email}")`;
 
     // Execute query in DB
     connection.query(query, function (error, results) {
-      
       // If there is no email or there is an error
       if (results.length === 0 || error) {
-        return res
-          .status(500)
-          .json({
-            error: "Email doesn't exist.",
-            status: false,
-          });
+        return res.status(500).json({
+          error: "Email doesn't exist.",
+          status: false,
+        });
       }
 
       // Check if the password is correct
       if (results[0].password !== req.body.password) {
-        return res
-          .status(500)
-          .json({
-            error: "The password is incorrect.",
-            status: false,
-          });
-      }
-      
-      // If everything is correct return user data
-      res
-        .status(200)
-        .json({
-          message: "Welcome back!",
-          status: true,
-          idUser: results[0].idUser,
-          email: results[0].email,
-          userType: results[0].userType
+        return res.status(500).json({
+          error: "The password is incorrect.",
+          status: false,
         });
       }
-    );
+
+      // If everything is correct return user data
+      res.status(200).json({
+        message: "Welcome back!",
+        status: true,
+        idUser: results[0].idUser,
+        email: results[0].email,
+        userType: results[0].userType,
+      });
+    });
 
     // End connection
     connection.end();
-  }
-  
-  // Manage error
-  catch (error) {
+  } catch (error) {
+    // Manage error
     console.log("LOGIN ERROR:", error);
-    res.status(500).json({ error: "There was an error with the log in, please try again.", status: false });
+    res
+      .status(500)
+      .json({
+        error: "There was an error with the log in, please try again.",
+        status: false,
+      });
   }
 });
 
@@ -92,12 +87,12 @@ router.post("/create_account", function (req, res) {
     let connection = connectToDB();
     connection.connect();
 
-    // Create user query
+    // Create query
     let userQuery = `INSERT INTO User (name, lastName, email, password, userType, age, gender, idForm) VALUES 
     ("${req.body.name}", "${req.body.lastName}", "${req.body.email}", "${req.body.password}", 
     "${req.body.userType}", ${req.body.age}, "${req.body.gender}", ${req.body.idForm})`;
 
-    // Execute from query in DB
+    // Execute query in DB
     connection.query(userQuery, (error, results) => {
       // If error creating user
       if (error) throw "There was an error with the creation of the user.";
@@ -111,10 +106,8 @@ router.post("/create_account", function (req, res) {
 
     // End connection
     connection.end();
-  }
-  
-  // Manage error
-  catch (error) {
+  } catch (error) {
+    // Manage error
     console.log("INSERT USER ERROR:", error);
     res.status(500).json({ error });
   }
@@ -149,10 +142,8 @@ router.post("/form", function (req, res) {
 
     // End connection
     connection.end();
-  }
-  
-  // Manage error
-  catch (error) {
+  } catch (error) {
+    // Manage error
     console.log("INSERT FORM ERROR:", error);
     res.status(500).json({ error });
   }
