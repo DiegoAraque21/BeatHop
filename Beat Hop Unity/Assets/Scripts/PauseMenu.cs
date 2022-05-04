@@ -9,7 +9,6 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public static bool gameIsPaused = false;
-
     public GameObject pauseMenuUI;
     // Update is called once per frame
 
@@ -18,6 +17,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            Debug.Log(gameIsPaused);
             if(gameIsPaused){
                 Resume();
             } else{
@@ -45,7 +45,6 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         gameIsPaused = true;
-
         AudioSource[] audios = FindObjectsOfType<AudioSource>();
 
         foreach(AudioSource a in audios){
@@ -56,6 +55,7 @@ public class PauseMenu : MonoBehaviour
 
     //Method for quitting the game (go to main menu)
     public void quitGame(){
+        gameIsPaused = false;
         string key = "tries" + PlayerPrefs.GetInt("userId");
         PlayerPrefs.SetInt(key, 1);
         Time.timeScale = 1f;
