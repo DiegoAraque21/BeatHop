@@ -294,3 +294,6 @@ The songs in the levels will be popular songs for players to recognize and bette
 7. Development of the final product - April 27
 
 8. Product delivery and presentation - April 29
+   
+## Video
+https://drive.google.com/file/d/18gXW9ZElMY9OKuvqXdxpOOBvrlVlsjEW/view?usp=sharing
